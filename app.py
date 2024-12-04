@@ -32,7 +32,13 @@ if selected_kecamatan == "":
     })
 
     # Membuat line chart dengan 4 garis, satu untuk tiap kandidat
-    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True, title="Total Suara per Kandidat di Seluruh Kecamatan")
+    fig = px.line(
+        totals, 
+        x="Kandidat", 
+        y="Jumlah Suara", 
+        markers=True, 
+        title="Total Suara per Kandidat di Seluruh Kecamatan"
+    )
     st.plotly_chart(fig)
 
 else:
