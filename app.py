@@ -8,7 +8,7 @@ with open('rekapitulasi.json', 'r') as file:
     data = json.load(file)
 
 # Streamlit App
-st.title("Rekapitulasi Suara Pilkwalkot Ternate 2024")
+st.title("Rekapitulasi Suara Pilwalkot Ternate 2024")
 
 # Bagian untuk memilih kecamatan dan kelurahan untuk melihat detail
 st.sidebar.title("iLuv")
