@@ -1,0 +1,2360 @@
+[
+    {
+        "kecamatan": "TERNATE BARAT",
+        "totals": {
+            "candidate_1": 167,
+            "candidate_2": 2922,
+            "candidate_3": 462,
+            "candidate_4": 1664
+        },
+        "kelurahan": {
+            "BULA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "118",
+                    "candidate_3": "4",
+                    "candidate_4": "127"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "10",
+                    "candidate_2": "140",
+                    "candidate_3": "14",
+                    "candidate_4": "105"
+                }
+            ],
+            "KULABA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "18",
+                    "candidate_2": "221",
+                    "candidate_3": "55",
+                    "candidate_4": "73"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "133",
+                    "candidate_3": "31",
+                    "candidate_4": "150"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "244",
+                    "candidate_3": "23",
+                    "candidate_4": "68"
+                }
+            ],
+            "LOTO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "9",
+                    "candidate_2": "160",
+                    "candidate_3": "58",
+                    "candidate_4": "65"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "7",
+                    "candidate_2": "78",
+                    "candidate_3": "3",
+                    "candidate_4": "44"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "31",
+                    "candidate_2": "72",
+                    "candidate_3": "45",
+                    "candidate_4": "43"
+                }
+            ],
+            "SULAMADAHA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "189",
+                    "candidate_3": "38",
+                    "candidate_4": "100"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "11",
+                    "candidate_2": "219",
+                    "candidate_3": "27",
+                    "candidate_4": "100"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "2",
+                    "candidate_2": "219",
+                    "candidate_3": "70",
+                    "candidate_4": "106"
+                }
+            ],
+            "TAKOME": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "212",
+                    "candidate_3": "12",
+                    "candidate_4": "147"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "2",
+                    "candidate_2": "182",
+                    "candidate_3": "8",
+                    "candidate_4": "107"
+                }
+            ],
+            "TOBOLOLO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "14",
+                    "candidate_2": "219",
+                    "candidate_3": "26",
+                    "candidate_4": "140"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "10",
+                    "candidate_2": "230",
+                    "candidate_3": "26",
+                    "candidate_4": "114"
+                }
+            ],
+            "TOGAFO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "16",
+                    "candidate_2": "286",
+                    "candidate_3": "22",
+                    "candidate_4": "175"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU TERNATE",
+        "totals": {
+            "candidate_1": 166,
+            "candidate_2": 2512,
+            "candidate_3": 465,
+            "candidate_4": 1661
+        },
+        "kelurahan": {
+            "AFE TADUMA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "41",
+                    "candidate_2": "135",
+                    "candidate_3": "8",
+                    "candidate_4": "74"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "215",
+                    "candidate_3": "16",
+                    "candidate_4": "94"
+                }
+            ],
+            "DORPEDU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "9",
+                    "candidate_2": "164",
+                    "candidate_3": "20",
+                    "candidate_4": "153"
+                }
+            ],
+            "FORAMADIAHI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "205",
+                    "candidate_3": "17",
+                    "candidate_4": "80"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "13",
+                    "candidate_2": "214",
+                    "candidate_3": "44",
+                    "candidate_4": "51"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "2",
+                    "candidate_2": "46",
+                    "candidate_3": "3",
+                    "candidate_4": "24"
+                }
+            ],
+            "JAMBULA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "3",
+                    "candidate_2": "152",
+                    "candidate_3": "42",
+                    "candidate_4": "140"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "11",
+                    "candidate_2": "230",
+                    "candidate_3": "13",
+                    "candidate_4": "116"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "3",
+                    "candidate_2": "226",
+                    "candidate_3": "35",
+                    "candidate_4": "124"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "7",
+                    "candidate_2": "140",
+                    "candidate_3": "40",
+                    "candidate_4": "89"
+                },
+                {
+                    "tps_number": "901",
+                    "candidate_1": "13",
+                    "candidate_2": "52",
+                    "candidate_3": "80",
+                    "candidate_4": "24"
+                },
+                {
+                    "tps_number": "902",
+                    "candidate_1": "1",
+                    "candidate_2": "51",
+                    "candidate_3": "41",
+                    "candidate_4": "19"
+                }
+            ],
+            "KASTELA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "130",
+                    "candidate_3": "40",
+                    "candidate_4": "122"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "203",
+                    "candidate_3": "17",
+                    "candidate_4": "114"
+                },
+                {
+                    "tps_number": "901",
+                    "candidate_1": "11",
+                    "candidate_2": "6",
+                    "candidate_3": "3",
+                    "candidate_4": "16"
+                }
+            ],
+            "RUA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "85",
+                    "candidate_3": "17",
+                    "candidate_4": "166"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "7",
+                    "candidate_2": "156",
+                    "candidate_3": "16",
+                    "candidate_4": "136"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "4",
+                    "candidate_2": "102",
+                    "candidate_3": "13",
+                    "candidate_4": "119"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU HIRI",
+        "totals": {
+            "candidate_1": 51,
+            "candidate_2": 951,
+            "candidate_3": 80,
+            "candidate_4": 513
+        },
+        "kelurahan": {
+            "DORARI ISA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "49",
+                    "candidate_3": "10",
+                    "candidate_4": "129"
+                }
+            ],
+            "FAUDU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "194",
+                    "candidate_3": "3",
+                    "candidate_4": "172"
+                }
+            ],
+            "MADO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "131",
+                    "candidate_3": "7",
+                    "candidate_4": "47"
+                }
+            ],
+            "TAFRAKA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "21",
+                    "candidate_2": "213",
+                    "candidate_3": "13",
+                    "candidate_4": "100"
+                }
+            ],
+            "TOGOLOBE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "208",
+                    "candidate_3": "15",
+                    "candidate_4": "33"
+                }
+            ],
+            "TOMAJIKO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "2",
+                    "candidate_2": "156",
+                    "candidate_3": "32",
+                    "candidate_4": "32"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU BATANG DUA",
+        "totals": {
+            "candidate_1": 2,
+            "candidate_2": 965,
+            "candidate_3": 3,
+            "candidate_4": 629
+        },
+        "kelurahan": {
+            "BIDO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "0",
+                    "candidate_2": "171",
+                    "candidate_3": "0",
+                    "candidate_4": "65"
+                }
+            ],
+            "LELEWI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "0",
+                    "candidate_2": "202",
+                    "candidate_3": "0",
+                    "candidate_4": "88"
+                }
+            ],
+            "MAYAU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "1",
+                    "candidate_2": "193",
+                    "candidate_3": "1",
+                    "candidate_4": "93"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "1",
+                    "candidate_2": "102",
+                    "candidate_3": "1",
+                    "candidate_4": "149"
+                }
+            ],
+            "PANTAI SAGU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "0",
+                    "candidate_2": "80",
+                    "candidate_3": "0",
+                    "candidate_4": "59"
+                }
+            ],
+            "PERUM BERSATU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "0",
+                    "candidate_2": "53",
+                    "candidate_3": "1",
+                    "candidate_4": "46"
+                }
+            ],
+            "TIFURE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "0",
+                    "candidate_2": "164",
+                    "candidate_3": "0",
+                    "candidate_4": "129"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "MOTI",
+        "totals": {
+            "candidate_1": 38,
+            "candidate_2": 1646,
+            "candidate_3": 196,
+            "candidate_4": 808
+        },
+        "kelurahan": {
+            "FIGUR": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "1",
+                    "candidate_2": "209",
+                    "candidate_3": "17",
+                    "candidate_4": "102"
+                }
+            ],
+            "MOTI KOTA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "247",
+                    "candidate_3": "21",
+                    "candidate_4": "88"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "10",
+                    "candidate_2": "249",
+                    "candidate_3": "9",
+                    "candidate_4": "90"
+                }
+            ],
+            "TADENAS": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "2",
+                    "candidate_2": "146",
+                    "candidate_3": "49",
+                    "candidate_4": "67"
+                }
+            ],
+            "TAFAGA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "217",
+                    "candidate_3": "8",
+                    "candidate_4": "193"
+                }
+            ],
+            "TAFAMUTU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "150",
+                    "candidate_3": "41",
+                    "candidate_4": "68"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "2",
+                    "candidate_2": "176",
+                    "candidate_3": "45",
+                    "candidate_4": "54"
+                }
+            ],
+            "TAKOFI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "2",
+                    "candidate_2": "252",
+                    "candidate_3": "6",
+                    "candidate_4": "146"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE UTARA",
+        "totals": {
+            "candidate_1": 1640,
+            "candidate_2": 10199,
+            "candidate_3": 2767,
+            "candidate_4": 9137
+        },
+        "kelurahan": {
+            "AKEHUDA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "17",
+                    "candidate_2": "137",
+                    "candidate_3": "33",
+                    "candidate_4": "78"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "4",
+                    "candidate_2": "150",
+                    "candidate_3": "24",
+                    "candidate_4": "111"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "16",
+                    "candidate_2": "106",
+                    "candidate_3": "84",
+                    "candidate_4": "154"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "13",
+                    "candidate_2": "160",
+                    "candidate_3": "30",
+                    "candidate_4": "153"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "22",
+                    "candidate_2": "101",
+                    "candidate_3": "38",
+                    "candidate_4": "99"
+                }
+            ],
+            "DUFA-DUFA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "49",
+                    "candidate_2": "147",
+                    "candidate_3": "40",
+                    "candidate_4": "94"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "57",
+                    "candidate_2": "175",
+                    "candidate_3": "29",
+                    "candidate_4": "137"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "24",
+                    "candidate_2": "97",
+                    "candidate_3": "7",
+                    "candidate_4": "105"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "54",
+                    "candidate_2": "97",
+                    "candidate_3": "18",
+                    "candidate_4": "90"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "120",
+                    "candidate_2": "152",
+                    "candidate_3": "9",
+                    "candidate_4": "134"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "86",
+                    "candidate_2": "194",
+                    "candidate_3": "14",
+                    "candidate_4": "150"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "36",
+                    "candidate_2": "136",
+                    "candidate_3": "43",
+                    "candidate_4": "143"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "75",
+                    "candidate_2": "115",
+                    "candidate_3": "29",
+                    "candidate_4": "92"
+                }
+            ],
+            "KASTURIAN": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "118",
+                    "candidate_3": "111",
+                    "candidate_4": "87"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "15",
+                    "candidate_2": "143",
+                    "candidate_3": "131",
+                    "candidate_4": "76"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "25",
+                    "candidate_2": "186",
+                    "candidate_3": "44",
+                    "candidate_4": "117"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "163",
+                    "candidate_3": "35",
+                    "candidate_4": "104"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "17",
+                    "candidate_2": "209",
+                    "candidate_3": "94",
+                    "candidate_4": "109"
+                }
+            ],
+            "SALERO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "16",
+                    "candidate_2": "110",
+                    "candidate_3": "35",
+                    "candidate_4": "213"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "20",
+                    "candidate_2": "159",
+                    "candidate_3": "47",
+                    "candidate_4": "160"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "14",
+                    "candidate_2": "150",
+                    "candidate_3": "47",
+                    "candidate_4": "143"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "14",
+                    "candidate_2": "185",
+                    "candidate_3": "34",
+                    "candidate_4": "157"
+                }
+            ],
+            "SANGAJI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "1",
+                    "candidate_2": "157",
+                    "candidate_3": "34",
+                    "candidate_4": "103"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "7",
+                    "candidate_2": "110",
+                    "candidate_3": "18",
+                    "candidate_4": "120"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "14",
+                    "candidate_2": "224",
+                    "candidate_3": "49",
+                    "candidate_4": "130"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "3",
+                    "candidate_2": "102",
+                    "candidate_3": "133",
+                    "candidate_4": "176"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "6",
+                    "candidate_2": "127",
+                    "candidate_3": "19",
+                    "candidate_4": "160"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "9",
+                    "candidate_2": "100",
+                    "candidate_3": "23",
+                    "candidate_4": "158"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "10",
+                    "candidate_2": "121",
+                    "candidate_3": "29",
+                    "candidate_4": "139"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "9",
+                    "candidate_2": "158",
+                    "candidate_3": "19",
+                    "candidate_4": "192"
+                }
+            ],
+            "SANGAJI UTARA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "29",
+                    "candidate_2": "141",
+                    "candidate_3": "60",
+                    "candidate_4": "78"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "19",
+                    "candidate_2": "161",
+                    "candidate_3": "32",
+                    "candidate_4": "121"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "169",
+                    "candidate_3": "23",
+                    "candidate_4": "116"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "24",
+                    "candidate_2": "199",
+                    "candidate_3": "21",
+                    "candidate_4": "85"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "15",
+                    "candidate_2": "137",
+                    "candidate_3": "17",
+                    "candidate_4": "103"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "17",
+                    "candidate_2": "120",
+                    "candidate_3": "98",
+                    "candidate_4": "86"
+                }
+            ],
+            "SANGO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "12",
+                    "candidate_2": "177",
+                    "candidate_3": "44",
+                    "candidate_4": "110"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "12",
+                    "candidate_2": "157",
+                    "candidate_3": "19",
+                    "candidate_4": "108"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "15",
+                    "candidate_2": "117",
+                    "candidate_3": "44",
+                    "candidate_4": "158"
+                }
+            ],
+            "SOA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "27",
+                    "candidate_2": "157",
+                    "candidate_3": "40",
+                    "candidate_4": "146"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "14",
+                    "candidate_2": "190",
+                    "candidate_3": "38",
+                    "candidate_4": "158"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "17",
+                    "candidate_2": "192",
+                    "candidate_3": "51",
+                    "candidate_4": "129"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "11",
+                    "candidate_2": "148",
+                    "candidate_3": "60",
+                    "candidate_4": "110"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "12",
+                    "candidate_2": "166",
+                    "candidate_3": "60",
+                    "candidate_4": "123"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "4",
+                    "candidate_2": "113",
+                    "candidate_3": "38",
+                    "candidate_4": "172"
+                }
+            ],
+            "SOA SIO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "16",
+                    "candidate_2": "156",
+                    "candidate_3": "13",
+                    "candidate_4": "127"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "19",
+                    "candidate_2": "96",
+                    "candidate_3": "23",
+                    "candidate_4": "157"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "8",
+                    "candidate_2": "136",
+                    "candidate_3": "29",
+                    "candidate_4": "151"
+                }
+            ],
+            "TABAM": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "335",
+                    "candidate_2": "65",
+                    "candidate_3": "37",
+                    "candidate_4": "113"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "18",
+                    "candidate_2": "99",
+                    "candidate_3": "26",
+                    "candidate_4": "133"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "17",
+                    "candidate_2": "112",
+                    "candidate_3": "33",
+                    "candidate_4": "100"
+                }
+            ],
+            "TAFURE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "114",
+                    "candidate_3": "28",
+                    "candidate_4": "135"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "14",
+                    "candidate_2": "120",
+                    "candidate_3": "15",
+                    "candidate_4": "168"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "15",
+                    "candidate_2": "112",
+                    "candidate_3": "14",
+                    "candidate_4": "172"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "9",
+                    "candidate_2": "121",
+                    "candidate_3": "25",
+                    "candidate_4": "159"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "9",
+                    "candidate_2": "65",
+                    "candidate_3": "10",
+                    "candidate_4": "88"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "6",
+                    "candidate_2": "66",
+                    "candidate_3": "14",
+                    "candidate_4": "103"
+                }
+            ],
+            "TARAU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "9",
+                    "candidate_2": "196",
+                    "candidate_3": "15",
+                    "candidate_4": "196"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "5",
+                    "candidate_2": "179",
+                    "candidate_3": "22",
+                    "candidate_4": "167"
+                }
+            ],
+            "TOBOLEU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "12",
+                    "candidate_2": "224",
+                    "candidate_3": "17",
+                    "candidate_4": "145"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "201",
+                    "candidate_3": "45",
+                    "candidate_4": "158"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "14",
+                    "candidate_2": "125",
+                    "candidate_3": "55",
+                    "candidate_4": "148"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "7",
+                    "candidate_2": "83",
+                    "candidate_3": "47",
+                    "candidate_4": "78"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "14",
+                    "candidate_2": "192",
+                    "candidate_3": "64",
+                    "candidate_4": "104"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "3",
+                    "candidate_2": "124",
+                    "candidate_3": "34",
+                    "candidate_4": "126"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "8",
+                    "candidate_2": "146",
+                    "candidate_3": "90",
+                    "candidate_4": "107"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "14",
+                    "candidate_2": "85",
+                    "candidate_3": "42",
+                    "candidate_4": "99"
+                }
+            ],
+            "TUBO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "11",
+                    "candidate_2": "129",
+                    "candidate_3": "17",
+                    "candidate_4": "171"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "14",
+                    "candidate_2": "199",
+                    "candidate_3": "28",
+                    "candidate_4": "131"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "17",
+                    "candidate_2": "202",
+                    "candidate_3": "40",
+                    "candidate_4": "97"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "29",
+                    "candidate_2": "219",
+                    "candidate_3": "39",
+                    "candidate_4": "117"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE SELATAN",
+        "totals": {
+            "candidate_1": 864,
+            "candidate_2": 14513,
+            "candidate_3": 4763,
+            "candidate_4": 11245
+        },
+        "kelurahan": {
+            "BASTIONG KARANCE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "4",
+                    "candidate_2": "74",
+                    "candidate_3": "169",
+                    "candidate_4": "95"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "134",
+                    "candidate_3": "107",
+                    "candidate_4": "103"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "5",
+                    "candidate_2": "114",
+                    "candidate_3": "125",
+                    "candidate_4": "83"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "3",
+                    "candidate_2": "129",
+                    "candidate_3": "162",
+                    "candidate_4": "98"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "14",
+                    "candidate_2": "122",
+                    "candidate_3": "87",
+                    "candidate_4": "109"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "7",
+                    "candidate_2": "110",
+                    "candidate_3": "51",
+                    "candidate_4": "115"
+                }
+            ],
+            "BASTIONG TALANGAME": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "12",
+                    "candidate_2": "147",
+                    "candidate_3": "91",
+                    "candidate_4": "87"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "11",
+                    "candidate_2": "114",
+                    "candidate_3": "64",
+                    "candidate_4": "149"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "8",
+                    "candidate_2": "109",
+                    "candidate_3": "97",
+                    "candidate_4": "100"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "4",
+                    "candidate_2": "151",
+                    "candidate_3": "101",
+                    "candidate_4": "110"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "5",
+                    "candidate_2": "127",
+                    "candidate_3": "83",
+                    "candidate_4": "73"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "2",
+                    "candidate_2": "93",
+                    "candidate_3": "104",
+                    "candidate_4": "67"
+                }
+            ],
+            "FITU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "164",
+                    "candidate_3": "18",
+                    "candidate_4": "80"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "7",
+                    "candidate_2": "175",
+                    "candidate_3": "23",
+                    "candidate_4": "72"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "3",
+                    "candidate_2": "213",
+                    "candidate_3": "18",
+                    "candidate_4": "63"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "8",
+                    "candidate_2": "195",
+                    "candidate_3": "15",
+                    "candidate_4": "65"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "2",
+                    "candidate_2": "105",
+                    "candidate_3": "41",
+                    "candidate_4": "112"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "8",
+                    "candidate_2": "82",
+                    "candidate_3": "43",
+                    "candidate_4": "98"
+                }
+            ],
+            "GAMBESI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "14",
+                    "candidate_2": "158",
+                    "candidate_3": "26",
+                    "candidate_4": "138"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "7",
+                    "candidate_2": "166",
+                    "candidate_3": "16",
+                    "candidate_4": "185"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "0",
+                    "candidate_2": "118",
+                    "candidate_3": "22",
+                    "candidate_4": "98"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "2",
+                    "candidate_2": "104",
+                    "candidate_3": "18",
+                    "candidate_4": "88"
+                }
+            ],
+            "JATI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "21",
+                    "candidate_2": "192",
+                    "candidate_3": "32",
+                    "candidate_4": "120"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "12",
+                    "candidate_2": "119",
+                    "candidate_3": "21",
+                    "candidate_4": "150"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "142",
+                    "candidate_3": "30",
+                    "candidate_4": "140"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "9",
+                    "candidate_2": "163",
+                    "candidate_3": "31",
+                    "candidate_4": "114"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "10",
+                    "candidate_2": "137",
+                    "candidate_3": "43",
+                    "candidate_4": "126"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "10",
+                    "candidate_2": "126",
+                    "candidate_3": "47",
+                    "candidate_4": "157"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "8",
+                    "candidate_2": "152",
+                    "candidate_3": "62",
+                    "candidate_4": "150"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "12",
+                    "candidate_2": "137",
+                    "candidate_3": "41",
+                    "candidate_4": "174"
+                },
+                {
+                    "tps_number": "009",
+                    "candidate_1": "3",
+                    "candidate_2": "57",
+                    "candidate_3": "48",
+                    "candidate_4": "49"
+                },
+                {
+                    "tps_number": "010",
+                    "candidate_1": "5",
+                    "candidate_2": "72",
+                    "candidate_3": "32",
+                    "candidate_4": "62"
+                }
+            ],
+            "JATI PERUMNAS": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "163",
+                    "candidate_3": "31",
+                    "candidate_4": "174"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "4",
+                    "candidate_2": "119",
+                    "candidate_3": "41",
+                    "candidate_4": "138"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "6",
+                    "candidate_2": "126",
+                    "candidate_3": "67",
+                    "candidate_4": "158"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "10",
+                    "candidate_2": "123",
+                    "candidate_3": "34",
+                    "candidate_4": "65"
+                }
+            ],
+            "KALUMATA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "112",
+                    "candidate_3": "82",
+                    "candidate_4": "105"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "13",
+                    "candidate_2": "116",
+                    "candidate_3": "65",
+                    "candidate_4": "119"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "4",
+                    "candidate_2": "75",
+                    "candidate_3": "62",
+                    "candidate_4": "99"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "124",
+                    "candidate_3": "92",
+                    "candidate_4": "112"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "16",
+                    "candidate_2": "131",
+                    "candidate_3": "75",
+                    "candidate_4": "118"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "9",
+                    "candidate_2": "52",
+                    "candidate_3": "34",
+                    "candidate_4": "104"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "9",
+                    "candidate_2": "69",
+                    "candidate_3": "15",
+                    "candidate_4": "109"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "8",
+                    "candidate_2": "144",
+                    "candidate_3": "53",
+                    "candidate_4": "115"
+                },
+                {
+                    "tps_number": "009",
+                    "candidate_1": "6",
+                    "candidate_2": "160",
+                    "candidate_3": "52",
+                    "candidate_4": "96"
+                },
+                {
+                    "tps_number": "010",
+                    "candidate_1": "15",
+                    "candidate_2": "110",
+                    "candidate_3": "68",
+                    "candidate_4": "140"
+                },
+                {
+                    "tps_number": "011",
+                    "candidate_1": "12",
+                    "candidate_2": "107",
+                    "candidate_3": "156",
+                    "candidate_4": "100"
+                },
+                {
+                    "tps_number": "012",
+                    "candidate_1": "18",
+                    "candidate_2": "156",
+                    "candidate_3": "92",
+                    "candidate_4": "102"
+                },
+                {
+                    "tps_number": "013",
+                    "candidate_1": "8",
+                    "candidate_2": "140",
+                    "candidate_3": "79",
+                    "candidate_4": "158"
+                },
+                {
+                    "tps_number": "014",
+                    "candidate_1": "14",
+                    "candidate_2": "154",
+                    "candidate_3": "37",
+                    "candidate_4": "119"
+                },
+                {
+                    "tps_number": "015",
+                    "candidate_1": "11",
+                    "candidate_2": "153",
+                    "candidate_3": "69",
+                    "candidate_4": "136"
+                }
+            ],
+            "KAYU MERAH": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "151",
+                    "candidate_3": "41",
+                    "candidate_4": "108"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "3",
+                    "candidate_2": "111",
+                    "candidate_3": "34",
+                    "candidate_4": "129"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "11",
+                    "candidate_2": "149",
+                    "candidate_3": "35",
+                    "candidate_4": "85"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "12",
+                    "candidate_2": "148",
+                    "candidate_3": "59",
+                    "candidate_4": "108"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "8",
+                    "candidate_2": "146",
+                    "candidate_3": "43",
+                    "candidate_4": "141"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "1",
+                    "candidate_2": "104",
+                    "candidate_3": "41",
+                    "candidate_4": "168"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "3",
+                    "candidate_2": "128",
+                    "candidate_3": "48",
+                    "candidate_4": "211"
+                }
+            ],
+            "MANGGA DUA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "152",
+                    "candidate_3": "14",
+                    "candidate_4": "188"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "16",
+                    "candidate_2": "167",
+                    "candidate_3": "17",
+                    "candidate_4": "185"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "6",
+                    "candidate_2": "203",
+                    "candidate_3": "21",
+                    "candidate_4": "122"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "198",
+                    "candidate_3": "29",
+                    "candidate_4": "71"
+                }
+            ],
+            "MANGGA DUA UTARA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "166",
+                    "candidate_3": "16",
+                    "candidate_4": "107"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "8",
+                    "candidate_2": "167",
+                    "candidate_3": "32",
+                    "candidate_4": "135"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "3",
+                    "candidate_2": "126",
+                    "candidate_3": "54",
+                    "candidate_4": "91"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "12",
+                    "candidate_2": "144",
+                    "candidate_3": "55",
+                    "candidate_4": "112"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "25",
+                    "candidate_2": "127",
+                    "candidate_3": "41",
+                    "candidate_4": "161"
+                }
+            ],
+            "NGADE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "4",
+                    "candidate_2": "144",
+                    "candidate_3": "62",
+                    "candidate_4": "122"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "126",
+                    "candidate_3": "59",
+                    "candidate_4": "124"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "133",
+                    "candidate_3": "64",
+                    "candidate_4": "117"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "12",
+                    "candidate_2": "123",
+                    "candidate_3": "35",
+                    "candidate_4": "123"
+                }
+            ],
+            "SASA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "12",
+                    "candidate_2": "252",
+                    "candidate_3": "36",
+                    "candidate_4": "88"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "175",
+                    "candidate_3": "25",
+                    "candidate_4": "163"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "12",
+                    "candidate_2": "216",
+                    "candidate_3": "24",
+                    "candidate_4": "153"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "8",
+                    "candidate_2": "178",
+                    "candidate_3": "29",
+                    "candidate_4": "148"
+                }
+            ],
+            "TABONA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "13",
+                    "candidate_2": "161",
+                    "candidate_3": "32",
+                    "candidate_4": "192"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "12",
+                    "candidate_2": "125",
+                    "candidate_3": "35",
+                    "candidate_4": "94"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "9",
+                    "candidate_2": "142",
+                    "candidate_3": "34",
+                    "candidate_4": "83"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "8",
+                    "candidate_2": "116",
+                    "candidate_3": "17",
+                    "candidate_4": "77"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "6",
+                    "candidate_2": "194",
+                    "candidate_3": "27",
+                    "candidate_4": "42"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "9",
+                    "candidate_2": "205",
+                    "candidate_3": "38",
+                    "candidate_4": "125"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "9",
+                    "candidate_2": "206",
+                    "candidate_3": "68",
+                    "candidate_4": "77"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "9",
+                    "candidate_2": "91",
+                    "candidate_3": "18",
+                    "candidate_4": "31"
+                }
+            ],
+            "TANAH TINGGI": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "234",
+                    "candidate_3": "23",
+                    "candidate_4": "88"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "3",
+                    "candidate_2": "301",
+                    "candidate_3": "9",
+                    "candidate_4": "66"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "6",
+                    "candidate_2": "269",
+                    "candidate_3": "27",
+                    "candidate_4": "70"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "4",
+                    "candidate_2": "263",
+                    "candidate_3": "37",
+                    "candidate_4": "65"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "5",
+                    "candidate_2": "190",
+                    "candidate_3": "28",
+                    "candidate_4": "45"
+                }
+            ],
+            "TANAH TINGGI BARAT": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "21",
+                    "candidate_2": "113",
+                    "candidate_3": "26",
+                    "candidate_4": "59"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "197",
+                    "candidate_3": "43",
+                    "candidate_4": "92"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "107",
+                    "candidate_3": "9",
+                    "candidate_4": "105"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "30",
+                    "candidate_2": "150",
+                    "candidate_3": "26",
+                    "candidate_4": "136"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "13",
+                    "candidate_2": "93",
+                    "candidate_3": "20",
+                    "candidate_4": "127"
+                }
+            ],
+            "TOBOKO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "169",
+                    "candidate_3": "42",
+                    "candidate_4": "113"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "192",
+                    "candidate_3": "27",
+                    "candidate_4": "109"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "6",
+                    "candidate_2": "132",
+                    "candidate_3": "92",
+                    "candidate_4": "110"
+                }
+            ],
+            "UBO-UBO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "9",
+                    "candidate_2": "168",
+                    "candidate_3": "16",
+                    "candidate_4": "105"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "11",
+                    "candidate_2": "126",
+                    "candidate_3": "21",
+                    "candidate_4": "126"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "7",
+                    "candidate_2": "155",
+                    "candidate_3": "18",
+                    "candidate_4": "121"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "3",
+                    "candidate_2": "145",
+                    "candidate_3": "44",
+                    "candidate_4": "130"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE TENGAH",
+        "totals": {
+            "candidate_1": 871,
+            "candidate_2": 11830,
+            "candidate_3": 2991,
+            "candidate_4": 8757
+        },
+        "kelurahan": {
+            "GAMALAMA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "78",
+                    "candidate_3": "37",
+                    "candidate_4": "56"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "92",
+                    "candidate_3": "36",
+                    "candidate_4": "72"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "84",
+                    "candidate_3": "48",
+                    "candidate_4": "117"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "72",
+                    "candidate_3": "38",
+                    "candidate_4": "76"
+                }
+            ],
+            "KALUMPANG": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "235",
+                    "candidate_3": "42",
+                    "candidate_4": "134"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "17",
+                    "candidate_2": "109",
+                    "candidate_3": "41",
+                    "candidate_4": "86"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "7",
+                    "candidate_2": "180",
+                    "candidate_3": "54",
+                    "candidate_4": "144"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "6",
+                    "candidate_2": "207",
+                    "candidate_3": "16",
+                    "candidate_4": "133"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "15",
+                    "candidate_2": "226",
+                    "candidate_3": "32",
+                    "candidate_4": "129"
+                }
+            ],
+            "KAMPUNG PISANG": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "22",
+                    "candidate_2": "98",
+                    "candidate_3": "33",
+                    "candidate_4": "147"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "17",
+                    "candidate_2": "211",
+                    "candidate_3": "25",
+                    "candidate_4": "108"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "37",
+                    "candidate_2": "175",
+                    "candidate_3": "19",
+                    "candidate_4": "103"
+                }
+            ],
+            "KOTA BARU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "125",
+                    "candidate_3": "26",
+                    "candidate_4": "102"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "190",
+                    "candidate_3": "14",
+                    "candidate_4": "124"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "18",
+                    "candidate_2": "117",
+                    "candidate_3": "33",
+                    "candidate_4": "101"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "9",
+                    "candidate_2": "149",
+                    "candidate_3": "105",
+                    "candidate_4": "120"
+                }
+            ],
+            "MAKASSAR BARAT": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "9",
+                    "candidate_2": "148",
+                    "candidate_3": "15",
+                    "candidate_4": "151"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "8",
+                    "candidate_2": "123",
+                    "candidate_3": "51",
+                    "candidate_4": "144"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "8",
+                    "candidate_2": "104",
+                    "candidate_3": "86",
+                    "candidate_4": "86"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "6",
+                    "candidate_2": "99",
+                    "candidate_3": "55",
+                    "candidate_4": "100"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "9",
+                    "candidate_2": "137",
+                    "candidate_3": "64",
+                    "candidate_4": "98"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "8",
+                    "candidate_2": "140",
+                    "candidate_3": "107",
+                    "candidate_4": "76"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "14",
+                    "candidate_2": "137",
+                    "candidate_3": "54",
+                    "candidate_4": "111"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "12",
+                    "candidate_2": "165",
+                    "candidate_3": "30",
+                    "candidate_4": "67"
+                }
+            ],
+            "MAKASSAR TIMUR": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "6",
+                    "candidate_2": "196",
+                    "candidate_3": "22",
+                    "candidate_4": "85"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "12",
+                    "candidate_2": "161",
+                    "candidate_3": "15",
+                    "candidate_4": "121"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "13",
+                    "candidate_2": "136",
+                    "candidate_3": "33",
+                    "candidate_4": "92"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "18",
+                    "candidate_2": "167",
+                    "candidate_3": "30",
+                    "candidate_4": "127"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "5",
+                    "candidate_2": "116",
+                    "candidate_3": "31",
+                    "candidate_4": "96"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "5",
+                    "candidate_2": "127",
+                    "candidate_3": "22",
+                    "candidate_4": "68"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "11",
+                    "candidate_2": "244",
+                    "candidate_3": "30",
+                    "candidate_4": "98"
+                }
+            ],
+            "MALIARO": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "101",
+                    "candidate_3": "48",
+                    "candidate_4": "93"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "6",
+                    "candidate_2": "118",
+                    "candidate_3": "79",
+                    "candidate_4": "60"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "13",
+                    "candidate_2": "171",
+                    "candidate_3": "26",
+                    "candidate_4": "128"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "33",
+                    "candidate_2": "195",
+                    "candidate_3": "18",
+                    "candidate_4": "122"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "50",
+                    "candidate_2": "206",
+                    "candidate_3": "27",
+                    "candidate_4": "160"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "26",
+                    "candidate_2": "186",
+                    "candidate_3": "16",
+                    "candidate_4": "103"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "18",
+                    "candidate_2": "144",
+                    "candidate_3": "36",
+                    "candidate_4": "139"
+                },
+                {
+                    "tps_number": "008",
+                    "candidate_1": "8",
+                    "candidate_2": "197",
+                    "candidate_3": "28",
+                    "candidate_4": "140"
+                },
+                {
+                    "tps_number": "009",
+                    "candidate_1": "12",
+                    "candidate_2": "106",
+                    "candidate_3": "14",
+                    "candidate_4": "66"
+                },
+                {
+                    "tps_number": "010",
+                    "candidate_1": "21",
+                    "candidate_2": "227",
+                    "candidate_3": "26",
+                    "candidate_4": "112"
+                },
+                {
+                    "tps_number": "011",
+                    "candidate_1": "9",
+                    "candidate_2": "178",
+                    "candidate_3": "20",
+                    "candidate_4": "75"
+                }
+            ],
+            "MARIKURUBU": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "5",
+                    "candidate_2": "181",
+                    "candidate_3": "59",
+                    "candidate_4": "99"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "13",
+                    "candidate_2": "213",
+                    "candidate_3": "45",
+                    "candidate_4": "118"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "7",
+                    "candidate_2": "177",
+                    "candidate_3": "90",
+                    "candidate_4": "93"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "13",
+                    "candidate_2": "243",
+                    "candidate_3": "49",
+                    "candidate_4": "109"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "15",
+                    "candidate_2": "237",
+                    "candidate_3": "20",
+                    "candidate_4": "145"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "12",
+                    "candidate_2": "270",
+                    "candidate_3": "27",
+                    "candidate_4": "86"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "12",
+                    "candidate_2": "216",
+                    "candidate_3": "14",
+                    "candidate_4": "78"
+                }
+            ],
+            "MOYA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "28",
+                    "candidate_2": "199",
+                    "candidate_3": "29",
+                    "candidate_4": "185"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "17",
+                    "candidate_2": "129",
+                    "candidate_3": "29",
+                    "candidate_4": "249"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "14",
+                    "candidate_2": "177",
+                    "candidate_3": "26",
+                    "candidate_4": "248"
+                }
+            ],
+            "MUHAJIRIN": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "86",
+                    "candidate_3": "67",
+                    "candidate_4": "148"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "9",
+                    "candidate_2": "105",
+                    "candidate_3": "69",
+                    "candidate_4": "69"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "5",
+                    "candidate_2": "73",
+                    "candidate_3": "22",
+                    "candidate_4": "53"
+                }
+            ],
+            "SALAHUDDIN": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "10",
+                    "candidate_2": "139",
+                    "candidate_3": "76",
+                    "candidate_4": "79"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "5",
+                    "candidate_2": "119",
+                    "candidate_3": "80",
+                    "candidate_4": "133"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "10",
+                    "candidate_2": "194",
+                    "candidate_3": "59",
+                    "candidate_4": "185"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "129",
+                    "candidate_3": "30",
+                    "candidate_4": "147"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "5",
+                    "candidate_2": "104",
+                    "candidate_3": "68",
+                    "candidate_4": "129"
+                },
+                {
+                    "tps_number": "006",
+                    "candidate_1": "4",
+                    "candidate_2": "104",
+                    "candidate_3": "46",
+                    "candidate_4": "79"
+                },
+                {
+                    "tps_number": "007",
+                    "candidate_1": "13",
+                    "candidate_2": "190",
+                    "candidate_3": "73",
+                    "candidate_4": "123"
+                }
+            ],
+            "SANTIONG": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "8",
+                    "candidate_2": "191",
+                    "candidate_3": "25",
+                    "candidate_4": "150"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "13",
+                    "candidate_2": "149",
+                    "candidate_3": "17",
+                    "candidate_4": "185"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "14",
+                    "candidate_2": "122",
+                    "candidate_3": "28",
+                    "candidate_4": "157"
+                },
+                {
+                    "tps_number": "004",
+                    "candidate_1": "5",
+                    "candidate_2": "225",
+                    "candidate_3": "21",
+                    "candidate_4": "134"
+                },
+                {
+                    "tps_number": "005",
+                    "candidate_1": "11",
+                    "candidate_2": "218",
+                    "candidate_3": "12",
+                    "candidate_4": "120"
+                }
+            ],
+            "STADION": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "3",
+                    "candidate_2": "177",
+                    "candidate_3": "69",
+                    "candidate_4": "84"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "11",
+                    "candidate_2": "88",
+                    "candidate_3": "82",
+                    "candidate_4": "105"
+                }
+            ],
+            "TAKOMA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "152",
+                    "candidate_3": "34",
+                    "candidate_4": "116"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "19",
+                    "candidate_2": "103",
+                    "candidate_3": "41",
+                    "candidate_4": "83"
+                },
+                {
+                    "tps_number": "003",
+                    "candidate_1": "8",
+                    "candidate_2": "104",
+                    "candidate_3": "10",
+                    "candidate_4": "104"
+                }
+            ],
+            "TANAH RAJA": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "1",
+                    "candidate_2": "156",
+                    "candidate_3": "8",
+                    "candidate_4": "112"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "4",
+                    "candidate_2": "101",
+                    "candidate_3": "3",
+                    "candidate_4": "145"
+                }
+            ],
+            "TONGOLE": [
+                {
+                    "tps_number": "001",
+                    "candidate_1": "7",
+                    "candidate_2": "155",
+                    "candidate_3": "36",
+                    "candidate_4": "115"
+                },
+                {
+                    "tps_number": "002",
+                    "candidate_1": "8",
+                    "candidate_2": "227",
+                    "candidate_3": "45",
+                    "candidate_4": "122"
+                }
+            ]
+        }
+    }
+]
