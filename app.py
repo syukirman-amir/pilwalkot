@@ -25,19 +25,19 @@ if selected_kecamatan == "":
     total_candidate_3 = sum([item["totals"]["candidate_3"] for item in data])
     total_candidate_4 = sum([item["totals"]["candidate_4"] for item in data])
 
-    # Membuat DataFrame untuk total suara per kandidat
+    # Membuat DataFrame untuk total suara per kandidat (dimana setiap kandidat adalah satu kolom)
     totals = pd.DataFrame({
-        "kandidat_1": [total_candidate_1],
-        "kandidat_2": [total_candidate_2],
-        "kandidat_3": [total_candidate_3],
-        "kandidat_4": [total_candidate_4]
+        "Kandidat 1": [total_candidate_1],
+        "Kandidat 2": [total_candidate_2],
+        "Kandidat 3": [total_candidate_3],
+        "Kandidat 4": [total_candidate_4]
     })
 
     # Visualisasi total suara seluruh kecamatan menggunakan Line Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
 
-    # Visualisasi dengan st.line_chart untuk menampilkan 4 garis
-    st.line_chart(totals)  # Menampilkan total suara untuk 4 kandidat
+    # Menggunakan st.line_chart untuk menampilkan 4 garis per kandidat
+    st.line_chart(totals)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
