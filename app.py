@@ -39,7 +39,7 @@ if selected_kecamatan == "":
         markers=True, 
         title="Total Suara per Kandidat di Seluruh Kecamatan"
     )
-    
+
     # Menambahkan 4 garis terpisah untuk setiap kandidat
     fig.update_traces(mode='lines+markers')
 
