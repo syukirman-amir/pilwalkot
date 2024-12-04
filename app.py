@@ -31,9 +31,9 @@ if selected_kecamatan == "":
         "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
     })
 
-    # Visualisasi total suara seluruh kecamatan menggunakan bar chart
+    # Visualisasi total suara seluruh kecamatan menggunakan Line Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-    fig = px.bar(totals, x="Kandidat", y="Jumlah Suara", color="Kandidat", title="Total Suara per Kandidat")
+    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True, title="Total Suara per Kandidat")
     st.plotly_chart(fig)
 
 else:
@@ -85,6 +85,6 @@ else:
         st.dataframe(kelurahan_df)
 
         # Plot suara per TPS untuk kelurahan yang dipilih
-        fig = px.line(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-                      title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
+        fig = px.bar(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+                     title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
         st.plotly_chart(fig)
