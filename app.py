@@ -40,6 +40,14 @@ st.subheader(f"Detail Suara - Kelurahan {selected_kelurahan}")
 
 # Konversi data kelurahan ke DataFrame
 kelurahan_df = pd.DataFrame(kelurahan_data)
+
+# Pastikan kolom suara kandidat adalah numerik
+kelurahan_df["candidate_1"] = pd.to_numeric(kelurahan_df["candidate_1"], errors='coerce')
+kelurahan_df["candidate_2"] = pd.to_numeric(kelurahan_df["candidate_2"], errors='coerce')
+kelurahan_df["candidate_3"] = pd.to_numeric(kelurahan_df["candidate_3"], errors='coerce')
+kelurahan_df["candidate_4"] = pd.to_numeric(kelurahan_df["candidate_4"], errors='coerce')
+
+# Ganti nama kolom untuk memudahkan
 kelurahan_df = kelurahan_df.rename(columns={
     "candidate_1": "Kandidat 1",
     "candidate_2": "Kandidat 2",
