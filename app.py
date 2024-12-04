@@ -8,10 +8,10 @@ with open('rekapitulasi.json', 'r') as file:
     data = json.load(file)
 
 # Streamlit App
-st.title("Rekapitulasi Suara Pilkada")
+st.title("Rekapitulasi Suara Pilkwalkot Ternate 2024")
 
 # Bagian untuk memilih kecamatan dan kelurahan untuk melihat detail
-st.sidebar.title("Navigasi")
+st.sidebar.title("iLuv")
 kecamatan_list = [item["kecamatan"] for item in data]
 
 # Inisialisasi untuk tidak ada kecamatan dan kelurahan yang dipilih pada awalnya
