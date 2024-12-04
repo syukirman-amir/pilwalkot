@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load JSON data
-with open('rekapitulasi_suara.json', 'r') as file:
+with open('rekapitulasi.json', 'r') as file:
     data = json.load(file)
 
 # Streamlit App
