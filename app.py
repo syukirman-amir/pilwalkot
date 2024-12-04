@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-import plotly.express as px
+import plotly.express as px  # Pastikan ini ada di bagian atas kode Anda
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
