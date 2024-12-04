@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
+import plotly.express as px
 import plotly.graph_objects as go
 
 # Load JSON data
@@ -31,27 +32,27 @@ if selected_kecamatan == "":
         "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
     })
 
-    # Visualisasi total suara seluruh kecamatan dengan grafik Plotly
+    # Visualisasi total suara seluruh kecamatan dengan Line Chart menggunakan Plotly
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
     
-    # Membuat grafik batang horizontal dengan Plotly untuk tampilan yang lebih modern
-    fig = go.Figure(data=[
-        go.Bar(
-            y=totals["Kandidat"], 
-            x=totals["Jumlah Suara"],
-            orientation="h",
-            marker=dict(color=["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"]),
-            text=totals["Jumlah Suara"],
-            textposition="inside",
-            hovertemplate="Kandidat: %{y}<br>Jumlah Suara: %{x}<extra></extra>"
-        )
-    ])
-    
+    # Membuat line chart untuk total suara per kandidat
+    fig = go.Figure()
+
+    # Menambahkan line chart untuk setiap kandidat
+    fig.add_trace(go.Scatter(
+        x=totals["Kandidat"], 
+        y=totals["Jumlah Suara"],
+        mode='lines+markers',  # garis dan titik
+        name="Jumlah Suara",
+        line=dict(width=3),
+        marker=dict(size=10)
+    ))
+
     fig.update_layout(
         title="Total Suara per Kandidat",
-        xaxis_title="Jumlah Suara",
-        yaxis_title="Kandidat",
-        template="plotly_dark",  # Menggunakan tema gelap yang elegan
+        xaxis_title="Kandidat",
+        yaxis_title="Jumlah Suara",
+        template="plotly_dark",  # Tema modern dan gelap
         margin=dict(l=100, r=100, t=50, b=50)
     )
     
@@ -71,7 +72,7 @@ else:
 
     st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
     
-    # Grafik kecamatan dengan Plotly
+    # Grafik kecamatan dengan Plotly (Bar Chart)
     fig_kecamatan = go.Figure(data=[
         go.Bar(
             y=totals_kecamatan["Kandidat"], 
