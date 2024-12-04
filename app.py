@@ -20,29 +20,19 @@ selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", [""] + kecamatan_li
 # Tempat untuk menampilkan grafik total suara seluruh kecamatan
 if selected_kecamatan == "":
     # Menghitung total suara untuk setiap kandidat di seluruh kecamatan
-    kandidat_1 = [item["totals"]["candidate_1"] for item in data]
-    kandidat_2 = [item["totals"]["candidate_2"] for item in data]
-    kandidat_3 = [item["totals"]["candidate_3"] for item in data]
-    kandidat_4 = [item["totals"]["candidate_4"] for item in data]
+    kandidat_1 = sum([item["totals"]["candidate_1"] for item in data])
+    kandidat_2 = sum([item["totals"]["candidate_2"] for item in data])
+    kandidat_3 = sum([item["totals"]["candidate_3"] for item in data])
+    kandidat_4 = sum([item["totals"]["candidate_4"] for item in data])
 
-    # Total suara untuk seluruh kecamatan
-    total_candidate_1 = sum(kandidat_1)
-    total_candidate_2 = sum(kandidat_2)
-    total_candidate_3 = sum(kandidat_3)
-    total_candidate_4 = sum(kandidat_4)
-
-    # Membuat DataFrame untuk total suara setiap kandidat
+    # Membuat DataFrame untuk total suara per kandidat
     totals = pd.DataFrame({
-        "Kecamatan": [kecamatan["kecamatan"] for kecamatan in data],
-        "Kandidat 1": kandidat_1,
-        "Kandidat 2": kandidat_2,
-        "Kandidat 3": kandidat_3,
-        "Kandidat 4": kandidat_4
+        "Kandidat": ["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+        "Jumlah Suara": [kandidat_1, kandidat_2, kandidat_3, kandidat_4]
     })
 
     # Membuat line chart dengan 4 garis, satu untuk tiap kandidat
-    fig = px.line(totals, x="Kecamatan", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-                  markers=True, title="Total Suara per Kandidat di Seluruh Kecamatan")
+    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True, title="Total Suara per Kandidat di Seluruh Kecamatan")
     st.plotly_chart(fig)
 
 else:
