@@ -47,7 +47,7 @@ if selected_kecamatan == "":
     # Visualisasi total suara per kecamatan per kandidat menggunakan Line Chart
     st.subheader("Total Suara per Kecamatan dan Kandidat")
     fig = px.line(kecamatan_long_df, x="Kecamatan", y="Jumlah Suara", color="Kandidat", markers=True, title="Total Suara per Kecamatan dan Kandidat")
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
@@ -63,7 +63,7 @@ else:
 
     st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
     fig_kecamatan = px.bar(totals_kecamatan, x="Kandidat", y="Jumlah Suara", color="Kandidat", title=f"Total Suara - {selected_kecamatan}")
-    st.plotly_chart(fig_kecamatan)
+    st.plotly_chart(fig_kecamatan, use_container_width=True)
 
     # Dropdown untuk memilih kelurahan
     kelurahan_list = list(kecamatan_data["kelurahan"].keys())
@@ -98,7 +98,8 @@ else:
         kelurahan_df["TPS"] = kelurahan_df["TPS"].apply(lambda x: f"{int(x):03d}")  # Pastikan numerik, kemudian format
 
         # Tampilkan tabel data kelurahan
-        st.dataframe(kelurahan_df)
+        with st.expander("Klik untuk melihat detail suara per TPS"):
+            st.dataframe(kelurahan_df)
 
         # Plot suara per TPS untuk kelurahan yang dipilih
         fig = px.bar(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
@@ -111,4 +112,5 @@ else:
             xaxis=dict(tickangle=45)  # Mengubah sudut label agar tidak tumpang tindih
         )
 
-        st.plotly_chart(fig)
+        # Menampilkan grafik responsif
+        st.plotly_chart(fig, use_container_width=True)
