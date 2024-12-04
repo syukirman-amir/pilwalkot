@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load JSON data
-with open('rekapitulasi.json', 'r') as file:
+with open('rekapitulasi_suara.json', 'r') as file:
     data = json.load(file)
 
 # Streamlit App
@@ -37,13 +37,21 @@ for kelurahan, tps_data in kecamatan_data["kelurahan"].items():
     
     # Konversi TPS data menjadi DataFrame
     kelurahan_df = pd.DataFrame(tps_data)
+    kelurahan_df = kelurahan_df.rename(columns={
+        "paslon_1": "Kandidat 1",
+        "paslon_2": "Kandidat 2",
+        "paslon_3": "Kandidat 3",
+        "paslon_4": "Kandidat 4",
+        "tps": "TPS"
+    })
+
     st.dataframe(kelurahan_df)
-    
+
     # Plot suara per TPS
     fig, ax = plt.subplots()
     kelurahan_df.plot(
-        x="tps_number",
-        y=["candidate_1", "candidate_2", "candidate_3", "candidate_4"],
+        x="TPS",
+        y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
         kind="bar",
         ax=ax
     )
