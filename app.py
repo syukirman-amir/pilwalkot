@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-import plotly.express as px
 import plotly.graph_objects as go
 
 # Load JSON data
@@ -38,13 +37,40 @@ if selected_kecamatan == "":
     # Membuat line chart untuk total suara per kandidat
     fig = go.Figure()
 
-    # Menambahkan line chart untuk setiap kandidat
+    # Menambahkan line chart untuk setiap kandidat dengan warna yang berbeda
     fig.add_trace(go.Scatter(
         x=totals["Kandidat"], 
         y=totals["Jumlah Suara"],
         mode='lines+markers',  # garis dan titik
-        name="Jumlah Suara",
-        line=dict(width=3),
+        name="Kandidat 1",
+        line=dict(color='blue', width=3),  # Warna biru untuk Kandidat 1
+        marker=dict(size=10)
+    ))
+
+    fig.add_trace(go.Scatter(
+        x=totals["Kandidat"], 
+        y=totals["Jumlah Suara"], 
+        mode='lines+markers',
+        name="Kandidat 2",
+        line=dict(color='red', width=3),  # Warna merah untuk Kandidat 2
+        marker=dict(size=10)
+    ))
+
+    fig.add_trace(go.Scatter(
+        x=totals["Kandidat"], 
+        y=totals["Jumlah Suara"], 
+        mode='lines+markers',
+        name="Kandidat 3",
+        line=dict(color='green', width=3),  # Warna hijau untuk Kandidat 3
+        marker=dict(size=10)
+    ))
+
+    fig.add_trace(go.Scatter(
+        x=totals["Kandidat"], 
+        y=totals["Jumlah Suara"], 
+        mode='lines+markers',
+        name="Kandidat 4",
+        line=dict(color='orange', width=3),  # Warna oranye untuk Kandidat 4
         marker=dict(size=10)
     ))
 
