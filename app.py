@@ -1,18 +1,12 @@
 import streamlit as st
 import pandas as pd
 import json
+import matplotlib.pyplot as plt
 import plotly.express as px
-import plotly.graph_objects as go
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
     data = json.load(file)
-
-# Sample data for coordinates of kecamatan (You need to replace this with real coordinates)
-kecamatan_coordinates = {
-    "Nama Kecamatan": {"lat": -6.1751, "lon": 106.8650},  # Replace with actual coordinates
-    # Add more kecamatan with latitudes and longitudes
-}
 
 # Streamlit App
 st.title("Rekapitulasi Suara Pilkada")
@@ -24,44 +18,6 @@ selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", kecamatan_list)
 
 # Filter data berdasarkan kecamatan yang dipilih
 kecamatan_data = next(item for item in data if item["kecamatan"] == selected_kecamatan)
-
-# Visualisasi Peta Total Suara per Kecamatan
-st.subheader("Peta Suara per Kecamatan")
-
-# Siapkan data untuk peta choropleth
-kecamatan_names = []
-candidate_1_votes = []
-candidate_2_votes = []
-candidate_3_votes = []
-candidate_4_votes = []
-latitudes = []
-longitudes = []
-
-for kecamatan in data:
-    kecamatan_names.append(kecamatan["kecamatan"])
-    candidate_1_votes.append(kecamatan["totals"]["candidate_1"])
-    candidate_2_votes.append(kecamatan["totals"]["candidate_2"])
-    candidate_3_votes.append(kecamatan["totals"]["candidate_3"])
-    candidate_4_votes.append(kecamatan["totals"]["candidate_4"])
-    latitudes.append(kecamatan_coordinates.get(kecamatan["kecamatan"], {}).get("lat", 0))
-    longitudes.append(kecamatan_coordinates.get(kecamatan["kecamatan"], {}).get("lon", 0))
-
-# Buat dataframe untuk peta
-df_map = pd.DataFrame({
-    'Kecamatan': kecamatan_names,
-    'Candidate 1': candidate_1_votes,
-    'Candidate 2': candidate_2_votes,
-    'Candidate 3': candidate_3_votes,
-    'Candidate 4': candidate_4_votes,
-    'Latitude': latitudes,
-    'Longitude': longitudes
-})
-
-# Plot peta dengan Plotly
-fig_map = px.scatter_geo(df_map, lat="Latitude", lon="Longitude", text="Kecamatan",
-                         size="Candidate 1", color="Candidate 1",
-                         hover_name="Kecamatan", title="Peta Total Suara per Kecamatan")
-st.plotly_chart(fig_map)
 
 # Tampilkan total suara per kandidat untuk kecamatan
 totals = pd.DataFrame(
