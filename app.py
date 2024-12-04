@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-import altair as alt
+import plotly.express as px
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
@@ -31,16 +31,10 @@ if selected_kecamatan == "":
         "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
     })
 
-    # Visualisasi total suara seluruh kecamatan menggunakan Line Chart (Altair)
+    # Visualisasi total suara seluruh kecamatan menggunakan Line Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-    chart = alt.Chart(totals).mark_line(point=True).encode(
-        x="Kandidat:N",
-        y="Jumlah Suara:Q",
-        color="Kandidat:N"
-    ).properties(
-        title="Total Suara per Kandidat"
-    )
-    st.altair_chart(chart, use_container_width=True)
+    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True, title="Total Suara per Kandidat")
+    st.plotly_chart(fig)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
@@ -55,14 +49,8 @@ else:
     )
 
     st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
-    chart_kecamatan = alt.Chart(totals_kecamatan).mark_bar().encode(
-        x="Kandidat:N",
-        y="Jumlah Suara:Q",
-        color="Kandidat:N"
-    ).properties(
-        title=f"Total Suara - {selected_kecamatan}"
-    )
-    st.altair_chart(chart_kecamatan, use_container_width=True)
+    fig_kecamatan = px.bar(totals_kecamatan, x="Kandidat", y="Jumlah Suara", color="Kandidat", title=f"Total Suara - {selected_kecamatan}")
+    st.plotly_chart(fig_kecamatan)
 
     # Dropdown untuk memilih kelurahan
     kelurahan_list = list(kecamatan_data["kelurahan"].keys())
@@ -96,13 +84,7 @@ else:
         # Tampilkan tabel data kelurahan
         st.dataframe(kelurahan_df)
 
-        # Plot suara per TPS untuk kelurahan yang dipilih menggunakan Bar Chart (Altair)
-        chart_tps = alt.Chart(kelurahan_df).mark_bar().encode(
-            x="TPS:N",
-            y="Kandidat 1:Q",
-            color=alt.value("blue"),
-            tooltip=["TPS:N", "Kandidat 1:Q"]
-        ).properties(
-            title=f"Suara per TPS di Kelurahan {selected_kelurahan}"
-        )
-        st.altair_chart(chart_tps, use_container_width=True)
+        # Plot suara per TPS untuk kelurahan yang dipilih
+        fig = px.bar(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+                     title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
+        st.plotly_chart(fig)
