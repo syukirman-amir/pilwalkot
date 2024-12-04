@@ -94,8 +94,8 @@ else:
             "tps_number": "TPS"
         })
 
-        # Format nomor TPS dengan menambahkan padding nol jika perlu
-        kelurahan_df["TPS"] = kelurahan_df["TPS"].apply(lambda x: f"{x:03d}")
+        # Pastikan kolom TPS adalah string dengan padding nol
+        kelurahan_df["TPS"] = kelurahan_df["TPS"].apply(lambda x: f"{int(x):03d}")  # Pastikan numerik, kemudian format
 
         # Tampilkan tabel data kelurahan
         st.dataframe(kelurahan_df)
