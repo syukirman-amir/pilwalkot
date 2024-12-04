@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Load JSON data
@@ -10,24 +9,43 @@ with open('rekapitulasi.json', 'r') as file:
 
 # Streamlit App
 st.title("Rekapitulasi Suara Pilkada")
-st.sidebar.title("Navigasi")
 
-# Dropdown untuk memilih kecamatan
+# Tampilkan total suara seluruh kecamatan per kandidat
+
+# Mengumpulkan total suara per kandidat di seluruh kecamatan
+total_candidate_1 = sum([item["totals"]["candidate_1"] for item in data])
+total_candidate_2 = sum([item["totals"]["candidate_2"] for item in data])
+total_candidate_3 = sum([item["totals"]["candidate_3"] for item in data])
+total_candidate_4 = sum([item["totals"]["candidate_4"] for item in data])
+
+# Membuat DataFrame untuk total suara per kandidat
+totals = pd.DataFrame({
+    "Kandidat": ["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+    "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
+})
+
+# Visualisasi total suara seluruh kecamatan
+st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
+fig = px.bar(totals, x="Kandidat", y="Jumlah Suara", color="Kandidat", title="Total Suara per Kandidat")
+st.plotly_chart(fig)
+
+# Bagian untuk memilih kecamatan dan kelurahan untuk melihat detail
+st.sidebar.title("Navigasi")
 kecamatan_list = [item["kecamatan"] for item in data]
 selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", kecamatan_list)
 
 # Filter data berdasarkan kecamatan yang dipilih
 kecamatan_data = next(item for item in data if item["kecamatan"] == selected_kecamatan)
 
-# Tampilkan total suara per kandidat untuk kecamatan
-totals = pd.DataFrame(
+# Tampilkan total suara per kandidat untuk kecamatan yang dipilih
+totals_kecamatan = pd.DataFrame(
     kecamatan_data["totals"].items(),
     columns=["Kandidat", "Jumlah Suara"]
 )
 
 st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
-fig = px.bar(totals, x="Kandidat", y="Jumlah Suara", color="Kandidat", title="Total Suara")
-st.plotly_chart(fig)
+fig_kecamatan = px.bar(totals_kecamatan, x="Kandidat", y="Jumlah Suara", color="Kandidat", title=f"Total Suara - {selected_kecamatan}")
+st.plotly_chart(fig_kecamatan)
 
 # Dropdown untuk memilih kelurahan
 kelurahan_list = list(kecamatan_data["kelurahan"].keys())
@@ -56,7 +74,7 @@ kelurahan_df = kelurahan_df.rename(columns={
     "tps_number": "TPS"
 })
 
-# Tampilkan tabel data
+# Tampilkan tabel data kelurahan
 st.dataframe(kelurahan_df)
 
 # Plot suara per TPS untuk kelurahan yang dipilih
