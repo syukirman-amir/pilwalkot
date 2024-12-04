@@ -17,7 +17,7 @@ kecamatan_list = [item["kecamatan"] for item in data]
 # Inisialisasi untuk tidak ada kecamatan dan kelurahan yang dipilih pada awalnya
 selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", [""] + kecamatan_list)
 
-# Tempat untuk menampilkan grafik total suara seluruh kecamatan
+# Grafik total suara per kandidat di seluruh kecamatan
 if selected_kecamatan == "":
     # Mengumpulkan total suara per kandidat di seluruh kecamatan
     total_candidate_1 = sum([item["totals"]["candidate_1"] for item in data])
@@ -75,7 +75,7 @@ if selected_kecamatan == "":
     ))
 
     fig.update_layout(
-        title="Total Suara per Kandidat",
+        title="Total Suara per Kandidat di Seluruh Kecamatan",
         xaxis_title="Kandidat",
         yaxis_title="Jumlah Suara",
         template="plotly_dark",  # Tema modern dan gelap
