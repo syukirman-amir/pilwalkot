@@ -39,8 +39,16 @@ if selected_kecamatan == "":
 
     # Visualisasi suara seluruh kecamatan menggunakan Line Chart untuk setiap kandidat
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True,
-                  title="Total Suara per Kandidat di Seluruh Kecamatan", line_shape="linear")
+
+    # Membuat data untuk line chart
+    line_data = pd.DataFrame({
+        'Kandidat': ["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+        'Jumlah Suara': [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
+    })
+
+    # Menampilkan Line Chart dengan 4 garis (untuk masing-masing kandidat)
+    fig = px.line(line_data, x="Kandidat", y="Jumlah Suara", markers=True, line_shape="linear",
+                  title="Total Suara per Kandidat di Seluruh Kecamatan")
     st.plotly_chart(fig)
 
 else:
