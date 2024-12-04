@@ -1,0 +1,2360 @@
+[
+    {
+        "kecamatan": "TERNATE BARAT",
+        "totals": {
+            "candidate_1": 167,
+            "candidate_2": 2922,
+            "candidate_3": 462,
+            "candidate_4": 1664
+        },
+        "kelurahan": {
+            "BULA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "118",
+                    "paslon_3": "4",
+                    "paslon_4": "127"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "10",
+                    "paslon_2": "140",
+                    "paslon_3": "14",
+                    "paslon_4": "105"
+                }
+            ],
+            "KULABA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "18",
+                    "paslon_2": "221",
+                    "paslon_3": "55",
+                    "paslon_4": "73"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "133",
+                    "paslon_3": "31",
+                    "paslon_4": "150"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "244",
+                    "paslon_3": "23",
+                    "paslon_4": "68"
+                }
+            ],
+            "LOTO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "9",
+                    "paslon_2": "160",
+                    "paslon_3": "58",
+                    "paslon_4": "65"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "7",
+                    "paslon_2": "78",
+                    "paslon_3": "3",
+                    "paslon_4": "44"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "31",
+                    "paslon_2": "72",
+                    "paslon_3": "45",
+                    "paslon_4": "43"
+                }
+            ],
+            "SULAMADAHA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "189",
+                    "paslon_3": "38",
+                    "paslon_4": "100"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "11",
+                    "paslon_2": "219",
+                    "paslon_3": "27",
+                    "paslon_4": "100"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "2",
+                    "paslon_2": "219",
+                    "paslon_3": "70",
+                    "paslon_4": "106"
+                }
+            ],
+            "TAKOME": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "212",
+                    "paslon_3": "12",
+                    "paslon_4": "147"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "2",
+                    "paslon_2": "182",
+                    "paslon_3": "8",
+                    "paslon_4": "107"
+                }
+            ],
+            "TOBOLOLO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "14",
+                    "paslon_2": "219",
+                    "paslon_3": "26",
+                    "paslon_4": "140"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "10",
+                    "paslon_2": "230",
+                    "paslon_3": "26",
+                    "paslon_4": "114"
+                }
+            ],
+            "TOGAFO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "16",
+                    "paslon_2": "286",
+                    "paslon_3": "22",
+                    "paslon_4": "175"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU TERNATE",
+        "totals": {
+            "candidate_1": 166,
+            "candidate_2": 2512,
+            "candidate_3": 465,
+            "candidate_4": 1661
+        },
+        "kelurahan": {
+            "AFE TADUMA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "41",
+                    "paslon_2": "135",
+                    "paslon_3": "8",
+                    "paslon_4": "74"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "215",
+                    "paslon_3": "16",
+                    "paslon_4": "94"
+                }
+            ],
+            "DORPEDU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "9",
+                    "paslon_2": "164",
+                    "paslon_3": "20",
+                    "paslon_4": "153"
+                }
+            ],
+            "FORAMADIAHI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "205",
+                    "paslon_3": "17",
+                    "paslon_4": "80"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "13",
+                    "paslon_2": "214",
+                    "paslon_3": "44",
+                    "paslon_4": "51"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "2",
+                    "paslon_2": "46",
+                    "paslon_3": "3",
+                    "paslon_4": "24"
+                }
+            ],
+            "JAMBULA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "3",
+                    "paslon_2": "152",
+                    "paslon_3": "42",
+                    "paslon_4": "140"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "11",
+                    "paslon_2": "230",
+                    "paslon_3": "13",
+                    "paslon_4": "116"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "3",
+                    "paslon_2": "226",
+                    "paslon_3": "35",
+                    "paslon_4": "124"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "7",
+                    "paslon_2": "140",
+                    "paslon_3": "40",
+                    "paslon_4": "89"
+                },
+                {
+                    "tps": "901",
+                    "paslon_1": "13",
+                    "paslon_2": "52",
+                    "paslon_3": "80",
+                    "paslon_4": "24"
+                },
+                {
+                    "tps": "902",
+                    "paslon_1": "1",
+                    "paslon_2": "51",
+                    "paslon_3": "41",
+                    "paslon_4": "19"
+                }
+            ],
+            "KASTELA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "130",
+                    "paslon_3": "40",
+                    "paslon_4": "122"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "203",
+                    "paslon_3": "17",
+                    "paslon_4": "114"
+                },
+                {
+                    "tps": "901",
+                    "paslon_1": "11",
+                    "paslon_2": "6",
+                    "paslon_3": "3",
+                    "paslon_4": "16"
+                }
+            ],
+            "RUA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "85",
+                    "paslon_3": "17",
+                    "paslon_4": "166"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "7",
+                    "paslon_2": "156",
+                    "paslon_3": "16",
+                    "paslon_4": "136"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "4",
+                    "paslon_2": "102",
+                    "paslon_3": "13",
+                    "paslon_4": "119"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU HIRI",
+        "totals": {
+            "candidate_1": 51,
+            "candidate_2": 951,
+            "candidate_3": 80,
+            "candidate_4": 513
+        },
+        "kelurahan": {
+            "DORARI ISA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "49",
+                    "paslon_3": "10",
+                    "paslon_4": "129"
+                }
+            ],
+            "FAUDU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "194",
+                    "paslon_3": "3",
+                    "paslon_4": "172"
+                }
+            ],
+            "MADO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "131",
+                    "paslon_3": "7",
+                    "paslon_4": "47"
+                }
+            ],
+            "TAFRAKA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "21",
+                    "paslon_2": "213",
+                    "paslon_3": "13",
+                    "paslon_4": "100"
+                }
+            ],
+            "TOGOLOBE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "208",
+                    "paslon_3": "15",
+                    "paslon_4": "33"
+                }
+            ],
+            "TOMAJIKO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "2",
+                    "paslon_2": "156",
+                    "paslon_3": "32",
+                    "paslon_4": "32"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "PULAU BATANG DUA",
+        "totals": {
+            "candidate_1": 2,
+            "candidate_2": 965,
+            "candidate_3": 3,
+            "candidate_4": 629
+        },
+        "kelurahan": {
+            "BIDO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "0",
+                    "paslon_2": "171",
+                    "paslon_3": "0",
+                    "paslon_4": "65"
+                }
+            ],
+            "LELEWI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "0",
+                    "paslon_2": "202",
+                    "paslon_3": "0",
+                    "paslon_4": "88"
+                }
+            ],
+            "MAYAU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "1",
+                    "paslon_2": "193",
+                    "paslon_3": "1",
+                    "paslon_4": "93"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "1",
+                    "paslon_2": "102",
+                    "paslon_3": "1",
+                    "paslon_4": "149"
+                }
+            ],
+            "PANTAI SAGU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "0",
+                    "paslon_2": "80",
+                    "paslon_3": "0",
+                    "paslon_4": "59"
+                }
+            ],
+            "PERUM BERSATU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "0",
+                    "paslon_2": "53",
+                    "paslon_3": "1",
+                    "paslon_4": "46"
+                }
+            ],
+            "TIFURE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "0",
+                    "paslon_2": "164",
+                    "paslon_3": "0",
+                    "paslon_4": "129"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "MOTI",
+        "totals": {
+            "candidate_1": 38,
+            "candidate_2": 1646,
+            "candidate_3": 196,
+            "candidate_4": 808
+        },
+        "kelurahan": {
+            "FIGUR": [
+                {
+                    "tps": "001",
+                    "paslon_1": "1",
+                    "paslon_2": "209",
+                    "paslon_3": "17",
+                    "paslon_4": "102"
+                }
+            ],
+            "MOTI KOTA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "247",
+                    "paslon_3": "21",
+                    "paslon_4": "88"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "10",
+                    "paslon_2": "249",
+                    "paslon_3": "9",
+                    "paslon_4": "90"
+                }
+            ],
+            "TADENAS": [
+                {
+                    "tps": "001",
+                    "paslon_1": "2",
+                    "paslon_2": "146",
+                    "paslon_3": "49",
+                    "paslon_4": "67"
+                }
+            ],
+            "TAFAGA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "217",
+                    "paslon_3": "8",
+                    "paslon_4": "193"
+                }
+            ],
+            "TAFAMUTU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "150",
+                    "paslon_3": "41",
+                    "paslon_4": "68"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "2",
+                    "paslon_2": "176",
+                    "paslon_3": "45",
+                    "paslon_4": "54"
+                }
+            ],
+            "TAKOFI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "2",
+                    "paslon_2": "252",
+                    "paslon_3": "6",
+                    "paslon_4": "146"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE UTARA",
+        "totals": {
+            "candidate_1": 1640,
+            "candidate_2": 10199,
+            "candidate_3": 2767,
+            "candidate_4": 9137
+        },
+        "kelurahan": {
+            "AKEHUDA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "17",
+                    "paslon_2": "137",
+                    "paslon_3": "33",
+                    "paslon_4": "78"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "4",
+                    "paslon_2": "150",
+                    "paslon_3": "24",
+                    "paslon_4": "111"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "16",
+                    "paslon_2": "106",
+                    "paslon_3": "84",
+                    "paslon_4": "154"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "13",
+                    "paslon_2": "160",
+                    "paslon_3": "30",
+                    "paslon_4": "153"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "22",
+                    "paslon_2": "101",
+                    "paslon_3": "38",
+                    "paslon_4": "99"
+                }
+            ],
+            "DUFA-DUFA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "49",
+                    "paslon_2": "147",
+                    "paslon_3": "40",
+                    "paslon_4": "94"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "57",
+                    "paslon_2": "175",
+                    "paslon_3": "29",
+                    "paslon_4": "137"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "24",
+                    "paslon_2": "97",
+                    "paslon_3": "7",
+                    "paslon_4": "105"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "54",
+                    "paslon_2": "97",
+                    "paslon_3": "18",
+                    "paslon_4": "90"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "120",
+                    "paslon_2": "152",
+                    "paslon_3": "9",
+                    "paslon_4": "134"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "86",
+                    "paslon_2": "194",
+                    "paslon_3": "14",
+                    "paslon_4": "150"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "36",
+                    "paslon_2": "136",
+                    "paslon_3": "43",
+                    "paslon_4": "143"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "75",
+                    "paslon_2": "115",
+                    "paslon_3": "29",
+                    "paslon_4": "92"
+                }
+            ],
+            "KASTURIAN": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "118",
+                    "paslon_3": "111",
+                    "paslon_4": "87"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "15",
+                    "paslon_2": "143",
+                    "paslon_3": "131",
+                    "paslon_4": "76"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "25",
+                    "paslon_2": "186",
+                    "paslon_3": "44",
+                    "paslon_4": "117"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "163",
+                    "paslon_3": "35",
+                    "paslon_4": "104"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "17",
+                    "paslon_2": "209",
+                    "paslon_3": "94",
+                    "paslon_4": "109"
+                }
+            ],
+            "SALERO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "16",
+                    "paslon_2": "110",
+                    "paslon_3": "35",
+                    "paslon_4": "213"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "20",
+                    "paslon_2": "159",
+                    "paslon_3": "47",
+                    "paslon_4": "160"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "14",
+                    "paslon_2": "150",
+                    "paslon_3": "47",
+                    "paslon_4": "143"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "14",
+                    "paslon_2": "185",
+                    "paslon_3": "34",
+                    "paslon_4": "157"
+                }
+            ],
+            "SANGAJI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "1",
+                    "paslon_2": "157",
+                    "paslon_3": "34",
+                    "paslon_4": "103"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "7",
+                    "paslon_2": "110",
+                    "paslon_3": "18",
+                    "paslon_4": "120"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "14",
+                    "paslon_2": "224",
+                    "paslon_3": "49",
+                    "paslon_4": "130"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "3",
+                    "paslon_2": "102",
+                    "paslon_3": "133",
+                    "paslon_4": "176"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "6",
+                    "paslon_2": "127",
+                    "paslon_3": "19",
+                    "paslon_4": "160"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "9",
+                    "paslon_2": "100",
+                    "paslon_3": "23",
+                    "paslon_4": "158"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "10",
+                    "paslon_2": "121",
+                    "paslon_3": "29",
+                    "paslon_4": "139"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "9",
+                    "paslon_2": "158",
+                    "paslon_3": "19",
+                    "paslon_4": "192"
+                }
+            ],
+            "SANGAJI UTARA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "29",
+                    "paslon_2": "141",
+                    "paslon_3": "60",
+                    "paslon_4": "78"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "19",
+                    "paslon_2": "161",
+                    "paslon_3": "32",
+                    "paslon_4": "121"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "169",
+                    "paslon_3": "23",
+                    "paslon_4": "116"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "24",
+                    "paslon_2": "199",
+                    "paslon_3": "21",
+                    "paslon_4": "85"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "15",
+                    "paslon_2": "137",
+                    "paslon_3": "17",
+                    "paslon_4": "103"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "17",
+                    "paslon_2": "120",
+                    "paslon_3": "98",
+                    "paslon_4": "86"
+                }
+            ],
+            "SANGO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "12",
+                    "paslon_2": "177",
+                    "paslon_3": "44",
+                    "paslon_4": "110"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "12",
+                    "paslon_2": "157",
+                    "paslon_3": "19",
+                    "paslon_4": "108"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "15",
+                    "paslon_2": "117",
+                    "paslon_3": "44",
+                    "paslon_4": "158"
+                }
+            ],
+            "SOA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "27",
+                    "paslon_2": "157",
+                    "paslon_3": "40",
+                    "paslon_4": "146"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "14",
+                    "paslon_2": "190",
+                    "paslon_3": "38",
+                    "paslon_4": "158"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "17",
+                    "paslon_2": "192",
+                    "paslon_3": "51",
+                    "paslon_4": "129"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "11",
+                    "paslon_2": "148",
+                    "paslon_3": "60",
+                    "paslon_4": "110"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "12",
+                    "paslon_2": "166",
+                    "paslon_3": "60",
+                    "paslon_4": "123"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "4",
+                    "paslon_2": "113",
+                    "paslon_3": "38",
+                    "paslon_4": "172"
+                }
+            ],
+            "SOA SIO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "16",
+                    "paslon_2": "156",
+                    "paslon_3": "13",
+                    "paslon_4": "127"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "19",
+                    "paslon_2": "96",
+                    "paslon_3": "23",
+                    "paslon_4": "157"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "8",
+                    "paslon_2": "136",
+                    "paslon_3": "29",
+                    "paslon_4": "151"
+                }
+            ],
+            "TABAM": [
+                {
+                    "tps": "001",
+                    "paslon_1": "335",
+                    "paslon_2": "65",
+                    "paslon_3": "37",
+                    "paslon_4": "113"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "18",
+                    "paslon_2": "99",
+                    "paslon_3": "26",
+                    "paslon_4": "133"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "17",
+                    "paslon_2": "112",
+                    "paslon_3": "33",
+                    "paslon_4": "100"
+                }
+            ],
+            "TAFURE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "114",
+                    "paslon_3": "28",
+                    "paslon_4": "135"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "14",
+                    "paslon_2": "120",
+                    "paslon_3": "15",
+                    "paslon_4": "168"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "15",
+                    "paslon_2": "112",
+                    "paslon_3": "14",
+                    "paslon_4": "172"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "9",
+                    "paslon_2": "121",
+                    "paslon_3": "25",
+                    "paslon_4": "159"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "9",
+                    "paslon_2": "65",
+                    "paslon_3": "10",
+                    "paslon_4": "88"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "6",
+                    "paslon_2": "66",
+                    "paslon_3": "14",
+                    "paslon_4": "103"
+                }
+            ],
+            "TARAU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "9",
+                    "paslon_2": "196",
+                    "paslon_3": "15",
+                    "paslon_4": "196"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "5",
+                    "paslon_2": "179",
+                    "paslon_3": "22",
+                    "paslon_4": "167"
+                }
+            ],
+            "TOBOLEU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "12",
+                    "paslon_2": "224",
+                    "paslon_3": "17",
+                    "paslon_4": "145"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "201",
+                    "paslon_3": "45",
+                    "paslon_4": "158"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "14",
+                    "paslon_2": "125",
+                    "paslon_3": "55",
+                    "paslon_4": "148"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "7",
+                    "paslon_2": "83",
+                    "paslon_3": "47",
+                    "paslon_4": "78"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "14",
+                    "paslon_2": "192",
+                    "paslon_3": "64",
+                    "paslon_4": "104"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "3",
+                    "paslon_2": "124",
+                    "paslon_3": "34",
+                    "paslon_4": "126"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "8",
+                    "paslon_2": "146",
+                    "paslon_3": "90",
+                    "paslon_4": "107"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "14",
+                    "paslon_2": "85",
+                    "paslon_3": "42",
+                    "paslon_4": "99"
+                }
+            ],
+            "TUBO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "11",
+                    "paslon_2": "129",
+                    "paslon_3": "17",
+                    "paslon_4": "171"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "14",
+                    "paslon_2": "199",
+                    "paslon_3": "28",
+                    "paslon_4": "131"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "17",
+                    "paslon_2": "202",
+                    "paslon_3": "40",
+                    "paslon_4": "97"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "29",
+                    "paslon_2": "219",
+                    "paslon_3": "39",
+                    "paslon_4": "117"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE SELATAN",
+        "totals": {
+            "candidate_1": 864,
+            "candidate_2": 14513,
+            "candidate_3": 4763,
+            "candidate_4": 11245
+        },
+        "kelurahan": {
+            "BASTIONG KARANCE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "4",
+                    "paslon_2": "74",
+                    "paslon_3": "169",
+                    "paslon_4": "95"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "134",
+                    "paslon_3": "107",
+                    "paslon_4": "103"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "5",
+                    "paslon_2": "114",
+                    "paslon_3": "125",
+                    "paslon_4": "83"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "3",
+                    "paslon_2": "129",
+                    "paslon_3": "162",
+                    "paslon_4": "98"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "14",
+                    "paslon_2": "122",
+                    "paslon_3": "87",
+                    "paslon_4": "109"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "7",
+                    "paslon_2": "110",
+                    "paslon_3": "51",
+                    "paslon_4": "115"
+                }
+            ],
+            "BASTIONG TALANGAME": [
+                {
+                    "tps": "001",
+                    "paslon_1": "12",
+                    "paslon_2": "147",
+                    "paslon_3": "91",
+                    "paslon_4": "87"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "11",
+                    "paslon_2": "114",
+                    "paslon_3": "64",
+                    "paslon_4": "149"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "8",
+                    "paslon_2": "109",
+                    "paslon_3": "97",
+                    "paslon_4": "100"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "4",
+                    "paslon_2": "151",
+                    "paslon_3": "101",
+                    "paslon_4": "110"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "5",
+                    "paslon_2": "127",
+                    "paslon_3": "83",
+                    "paslon_4": "73"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "2",
+                    "paslon_2": "93",
+                    "paslon_3": "104",
+                    "paslon_4": "67"
+                }
+            ],
+            "FITU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "164",
+                    "paslon_3": "18",
+                    "paslon_4": "80"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "7",
+                    "paslon_2": "175",
+                    "paslon_3": "23",
+                    "paslon_4": "72"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "3",
+                    "paslon_2": "213",
+                    "paslon_3": "18",
+                    "paslon_4": "63"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "8",
+                    "paslon_2": "195",
+                    "paslon_3": "15",
+                    "paslon_4": "65"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "2",
+                    "paslon_2": "105",
+                    "paslon_3": "41",
+                    "paslon_4": "112"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "8",
+                    "paslon_2": "82",
+                    "paslon_3": "43",
+                    "paslon_4": "98"
+                }
+            ],
+            "GAMBESI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "14",
+                    "paslon_2": "158",
+                    "paslon_3": "26",
+                    "paslon_4": "138"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "7",
+                    "paslon_2": "166",
+                    "paslon_3": "16",
+                    "paslon_4": "185"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "0",
+                    "paslon_2": "118",
+                    "paslon_3": "22",
+                    "paslon_4": "98"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "2",
+                    "paslon_2": "104",
+                    "paslon_3": "18",
+                    "paslon_4": "88"
+                }
+            ],
+            "JATI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "21",
+                    "paslon_2": "192",
+                    "paslon_3": "32",
+                    "paslon_4": "120"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "12",
+                    "paslon_2": "119",
+                    "paslon_3": "21",
+                    "paslon_4": "150"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "142",
+                    "paslon_3": "30",
+                    "paslon_4": "140"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "9",
+                    "paslon_2": "163",
+                    "paslon_3": "31",
+                    "paslon_4": "114"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "10",
+                    "paslon_2": "137",
+                    "paslon_3": "43",
+                    "paslon_4": "126"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "10",
+                    "paslon_2": "126",
+                    "paslon_3": "47",
+                    "paslon_4": "157"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "8",
+                    "paslon_2": "152",
+                    "paslon_3": "62",
+                    "paslon_4": "150"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "12",
+                    "paslon_2": "137",
+                    "paslon_3": "41",
+                    "paslon_4": "174"
+                },
+                {
+                    "tps": "009",
+                    "paslon_1": "3",
+                    "paslon_2": "57",
+                    "paslon_3": "48",
+                    "paslon_4": "49"
+                },
+                {
+                    "tps": "010",
+                    "paslon_1": "5",
+                    "paslon_2": "72",
+                    "paslon_3": "32",
+                    "paslon_4": "62"
+                }
+            ],
+            "JATI PERUMNAS": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "163",
+                    "paslon_3": "31",
+                    "paslon_4": "174"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "4",
+                    "paslon_2": "119",
+                    "paslon_3": "41",
+                    "paslon_4": "138"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "6",
+                    "paslon_2": "126",
+                    "paslon_3": "67",
+                    "paslon_4": "158"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "10",
+                    "paslon_2": "123",
+                    "paslon_3": "34",
+                    "paslon_4": "65"
+                }
+            ],
+            "KALUMATA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "112",
+                    "paslon_3": "82",
+                    "paslon_4": "105"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "13",
+                    "paslon_2": "116",
+                    "paslon_3": "65",
+                    "paslon_4": "119"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "4",
+                    "paslon_2": "75",
+                    "paslon_3": "62",
+                    "paslon_4": "99"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "124",
+                    "paslon_3": "92",
+                    "paslon_4": "112"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "16",
+                    "paslon_2": "131",
+                    "paslon_3": "75",
+                    "paslon_4": "118"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "9",
+                    "paslon_2": "52",
+                    "paslon_3": "34",
+                    "paslon_4": "104"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "9",
+                    "paslon_2": "69",
+                    "paslon_3": "15",
+                    "paslon_4": "109"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "8",
+                    "paslon_2": "144",
+                    "paslon_3": "53",
+                    "paslon_4": "115"
+                },
+                {
+                    "tps": "009",
+                    "paslon_1": "6",
+                    "paslon_2": "160",
+                    "paslon_3": "52",
+                    "paslon_4": "96"
+                },
+                {
+                    "tps": "010",
+                    "paslon_1": "15",
+                    "paslon_2": "110",
+                    "paslon_3": "68",
+                    "paslon_4": "140"
+                },
+                {
+                    "tps": "011",
+                    "paslon_1": "12",
+                    "paslon_2": "107",
+                    "paslon_3": "156",
+                    "paslon_4": "100"
+                },
+                {
+                    "tps": "012",
+                    "paslon_1": "18",
+                    "paslon_2": "156",
+                    "paslon_3": "92",
+                    "paslon_4": "102"
+                },
+                {
+                    "tps": "013",
+                    "paslon_1": "8",
+                    "paslon_2": "140",
+                    "paslon_3": "79",
+                    "paslon_4": "158"
+                },
+                {
+                    "tps": "014",
+                    "paslon_1": "14",
+                    "paslon_2": "154",
+                    "paslon_3": "37",
+                    "paslon_4": "119"
+                },
+                {
+                    "tps": "015",
+                    "paslon_1": "11",
+                    "paslon_2": "153",
+                    "paslon_3": "69",
+                    "paslon_4": "136"
+                }
+            ],
+            "KAYU MERAH": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "151",
+                    "paslon_3": "41",
+                    "paslon_4": "108"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "3",
+                    "paslon_2": "111",
+                    "paslon_3": "34",
+                    "paslon_4": "129"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "11",
+                    "paslon_2": "149",
+                    "paslon_3": "35",
+                    "paslon_4": "85"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "12",
+                    "paslon_2": "148",
+                    "paslon_3": "59",
+                    "paslon_4": "108"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "8",
+                    "paslon_2": "146",
+                    "paslon_3": "43",
+                    "paslon_4": "141"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "1",
+                    "paslon_2": "104",
+                    "paslon_3": "41",
+                    "paslon_4": "168"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "3",
+                    "paslon_2": "128",
+                    "paslon_3": "48",
+                    "paslon_4": "211"
+                }
+            ],
+            "MANGGA DUA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "152",
+                    "paslon_3": "14",
+                    "paslon_4": "188"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "16",
+                    "paslon_2": "167",
+                    "paslon_3": "17",
+                    "paslon_4": "185"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "6",
+                    "paslon_2": "203",
+                    "paslon_3": "21",
+                    "paslon_4": "122"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "198",
+                    "paslon_3": "29",
+                    "paslon_4": "71"
+                }
+            ],
+            "MANGGA DUA UTARA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "166",
+                    "paslon_3": "16",
+                    "paslon_4": "107"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "8",
+                    "paslon_2": "167",
+                    "paslon_3": "32",
+                    "paslon_4": "135"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "3",
+                    "paslon_2": "126",
+                    "paslon_3": "54",
+                    "paslon_4": "91"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "12",
+                    "paslon_2": "144",
+                    "paslon_3": "55",
+                    "paslon_4": "112"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "25",
+                    "paslon_2": "127",
+                    "paslon_3": "41",
+                    "paslon_4": "161"
+                }
+            ],
+            "NGADE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "4",
+                    "paslon_2": "144",
+                    "paslon_3": "62",
+                    "paslon_4": "122"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "126",
+                    "paslon_3": "59",
+                    "paslon_4": "124"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "133",
+                    "paslon_3": "64",
+                    "paslon_4": "117"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "12",
+                    "paslon_2": "123",
+                    "paslon_3": "35",
+                    "paslon_4": "123"
+                }
+            ],
+            "SASA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "12",
+                    "paslon_2": "252",
+                    "paslon_3": "36",
+                    "paslon_4": "88"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "175",
+                    "paslon_3": "25",
+                    "paslon_4": "163"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "12",
+                    "paslon_2": "216",
+                    "paslon_3": "24",
+                    "paslon_4": "153"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "8",
+                    "paslon_2": "178",
+                    "paslon_3": "29",
+                    "paslon_4": "148"
+                }
+            ],
+            "TABONA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "13",
+                    "paslon_2": "161",
+                    "paslon_3": "32",
+                    "paslon_4": "192"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "12",
+                    "paslon_2": "125",
+                    "paslon_3": "35",
+                    "paslon_4": "94"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "9",
+                    "paslon_2": "142",
+                    "paslon_3": "34",
+                    "paslon_4": "83"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "8",
+                    "paslon_2": "116",
+                    "paslon_3": "17",
+                    "paslon_4": "77"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "6",
+                    "paslon_2": "194",
+                    "paslon_3": "27",
+                    "paslon_4": "42"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "9",
+                    "paslon_2": "205",
+                    "paslon_3": "38",
+                    "paslon_4": "125"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "9",
+                    "paslon_2": "206",
+                    "paslon_3": "68",
+                    "paslon_4": "77"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "9",
+                    "paslon_2": "91",
+                    "paslon_3": "18",
+                    "paslon_4": "31"
+                }
+            ],
+            "TANAH TINGGI": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "234",
+                    "paslon_3": "23",
+                    "paslon_4": "88"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "3",
+                    "paslon_2": "301",
+                    "paslon_3": "9",
+                    "paslon_4": "66"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "6",
+                    "paslon_2": "269",
+                    "paslon_3": "27",
+                    "paslon_4": "70"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "4",
+                    "paslon_2": "263",
+                    "paslon_3": "37",
+                    "paslon_4": "65"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "5",
+                    "paslon_2": "190",
+                    "paslon_3": "28",
+                    "paslon_4": "45"
+                }
+            ],
+            "TANAH TINGGI BARAT": [
+                {
+                    "tps": "001",
+                    "paslon_1": "21",
+                    "paslon_2": "113",
+                    "paslon_3": "26",
+                    "paslon_4": "59"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "197",
+                    "paslon_3": "43",
+                    "paslon_4": "92"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "107",
+                    "paslon_3": "9",
+                    "paslon_4": "105"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "30",
+                    "paslon_2": "150",
+                    "paslon_3": "26",
+                    "paslon_4": "136"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "13",
+                    "paslon_2": "93",
+                    "paslon_3": "20",
+                    "paslon_4": "127"
+                }
+            ],
+            "TOBOKO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "169",
+                    "paslon_3": "42",
+                    "paslon_4": "113"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "192",
+                    "paslon_3": "27",
+                    "paslon_4": "109"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "6",
+                    "paslon_2": "132",
+                    "paslon_3": "92",
+                    "paslon_4": "110"
+                }
+            ],
+            "UBO-UBO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "9",
+                    "paslon_2": "168",
+                    "paslon_3": "16",
+                    "paslon_4": "105"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "11",
+                    "paslon_2": "126",
+                    "paslon_3": "21",
+                    "paslon_4": "126"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "7",
+                    "paslon_2": "155",
+                    "paslon_3": "18",
+                    "paslon_4": "121"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "3",
+                    "paslon_2": "145",
+                    "paslon_3": "44",
+                    "paslon_4": "130"
+                }
+            ]
+        }
+    },
+    {
+        "kecamatan": "TERNATE TENGAH",
+        "totals": {
+            "candidate_1": 871,
+            "candidate_2": 11830,
+            "candidate_3": 2991,
+            "candidate_4": 8757
+        },
+        "kelurahan": {
+            "GAMALAMA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "78",
+                    "paslon_3": "37",
+                    "paslon_4": "56"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "92",
+                    "paslon_3": "36",
+                    "paslon_4": "72"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "84",
+                    "paslon_3": "48",
+                    "paslon_4": "117"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "72",
+                    "paslon_3": "38",
+                    "paslon_4": "76"
+                }
+            ],
+            "KALUMPANG": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "235",
+                    "paslon_3": "42",
+                    "paslon_4": "134"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "17",
+                    "paslon_2": "109",
+                    "paslon_3": "41",
+                    "paslon_4": "86"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "7",
+                    "paslon_2": "180",
+                    "paslon_3": "54",
+                    "paslon_4": "144"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "6",
+                    "paslon_2": "207",
+                    "paslon_3": "16",
+                    "paslon_4": "133"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "15",
+                    "paslon_2": "226",
+                    "paslon_3": "32",
+                    "paslon_4": "129"
+                }
+            ],
+            "KAMPUNG PISANG": [
+                {
+                    "tps": "001",
+                    "paslon_1": "22",
+                    "paslon_2": "98",
+                    "paslon_3": "33",
+                    "paslon_4": "147"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "17",
+                    "paslon_2": "211",
+                    "paslon_3": "25",
+                    "paslon_4": "108"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "37",
+                    "paslon_2": "175",
+                    "paslon_3": "19",
+                    "paslon_4": "103"
+                }
+            ],
+            "KOTA BARU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "125",
+                    "paslon_3": "26",
+                    "paslon_4": "102"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "190",
+                    "paslon_3": "14",
+                    "paslon_4": "124"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "18",
+                    "paslon_2": "117",
+                    "paslon_3": "33",
+                    "paslon_4": "101"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "9",
+                    "paslon_2": "149",
+                    "paslon_3": "105",
+                    "paslon_4": "120"
+                }
+            ],
+            "MAKASSAR BARAT": [
+                {
+                    "tps": "001",
+                    "paslon_1": "9",
+                    "paslon_2": "148",
+                    "paslon_3": "15",
+                    "paslon_4": "151"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "8",
+                    "paslon_2": "123",
+                    "paslon_3": "51",
+                    "paslon_4": "144"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "8",
+                    "paslon_2": "104",
+                    "paslon_3": "86",
+                    "paslon_4": "86"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "6",
+                    "paslon_2": "99",
+                    "paslon_3": "55",
+                    "paslon_4": "100"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "9",
+                    "paslon_2": "137",
+                    "paslon_3": "64",
+                    "paslon_4": "98"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "8",
+                    "paslon_2": "140",
+                    "paslon_3": "107",
+                    "paslon_4": "76"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "14",
+                    "paslon_2": "137",
+                    "paslon_3": "54",
+                    "paslon_4": "111"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "12",
+                    "paslon_2": "165",
+                    "paslon_3": "30",
+                    "paslon_4": "67"
+                }
+            ],
+            "MAKASSAR TIMUR": [
+                {
+                    "tps": "001",
+                    "paslon_1": "6",
+                    "paslon_2": "196",
+                    "paslon_3": "22",
+                    "paslon_4": "85"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "12",
+                    "paslon_2": "161",
+                    "paslon_3": "15",
+                    "paslon_4": "121"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "13",
+                    "paslon_2": "136",
+                    "paslon_3": "33",
+                    "paslon_4": "92"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "18",
+                    "paslon_2": "167",
+                    "paslon_3": "30",
+                    "paslon_4": "127"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "5",
+                    "paslon_2": "116",
+                    "paslon_3": "31",
+                    "paslon_4": "96"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "5",
+                    "paslon_2": "127",
+                    "paslon_3": "22",
+                    "paslon_4": "68"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "11",
+                    "paslon_2": "244",
+                    "paslon_3": "30",
+                    "paslon_4": "98"
+                }
+            ],
+            "MALIARO": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "101",
+                    "paslon_3": "48",
+                    "paslon_4": "93"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "6",
+                    "paslon_2": "118",
+                    "paslon_3": "79",
+                    "paslon_4": "60"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "13",
+                    "paslon_2": "171",
+                    "paslon_3": "26",
+                    "paslon_4": "128"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "33",
+                    "paslon_2": "195",
+                    "paslon_3": "18",
+                    "paslon_4": "122"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "50",
+                    "paslon_2": "206",
+                    "paslon_3": "27",
+                    "paslon_4": "160"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "26",
+                    "paslon_2": "186",
+                    "paslon_3": "16",
+                    "paslon_4": "103"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "18",
+                    "paslon_2": "144",
+                    "paslon_3": "36",
+                    "paslon_4": "139"
+                },
+                {
+                    "tps": "008",
+                    "paslon_1": "8",
+                    "paslon_2": "197",
+                    "paslon_3": "28",
+                    "paslon_4": "140"
+                },
+                {
+                    "tps": "009",
+                    "paslon_1": "12",
+                    "paslon_2": "106",
+                    "paslon_3": "14",
+                    "paslon_4": "66"
+                },
+                {
+                    "tps": "010",
+                    "paslon_1": "21",
+                    "paslon_2": "227",
+                    "paslon_3": "26",
+                    "paslon_4": "112"
+                },
+                {
+                    "tps": "011",
+                    "paslon_1": "9",
+                    "paslon_2": "178",
+                    "paslon_3": "20",
+                    "paslon_4": "75"
+                }
+            ],
+            "MARIKURUBU": [
+                {
+                    "tps": "001",
+                    "paslon_1": "5",
+                    "paslon_2": "181",
+                    "paslon_3": "59",
+                    "paslon_4": "99"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "13",
+                    "paslon_2": "213",
+                    "paslon_3": "45",
+                    "paslon_4": "118"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "7",
+                    "paslon_2": "177",
+                    "paslon_3": "90",
+                    "paslon_4": "93"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "13",
+                    "paslon_2": "243",
+                    "paslon_3": "49",
+                    "paslon_4": "109"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "15",
+                    "paslon_2": "237",
+                    "paslon_3": "20",
+                    "paslon_4": "145"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "12",
+                    "paslon_2": "270",
+                    "paslon_3": "27",
+                    "paslon_4": "86"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "12",
+                    "paslon_2": "216",
+                    "paslon_3": "14",
+                    "paslon_4": "78"
+                }
+            ],
+            "MOYA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "28",
+                    "paslon_2": "199",
+                    "paslon_3": "29",
+                    "paslon_4": "185"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "17",
+                    "paslon_2": "129",
+                    "paslon_3": "29",
+                    "paslon_4": "249"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "14",
+                    "paslon_2": "177",
+                    "paslon_3": "26",
+                    "paslon_4": "248"
+                }
+            ],
+            "MUHAJIRIN": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "86",
+                    "paslon_3": "67",
+                    "paslon_4": "148"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "9",
+                    "paslon_2": "105",
+                    "paslon_3": "69",
+                    "paslon_4": "69"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "5",
+                    "paslon_2": "73",
+                    "paslon_3": "22",
+                    "paslon_4": "53"
+                }
+            ],
+            "SALAHUDDIN": [
+                {
+                    "tps": "001",
+                    "paslon_1": "10",
+                    "paslon_2": "139",
+                    "paslon_3": "76",
+                    "paslon_4": "79"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "5",
+                    "paslon_2": "119",
+                    "paslon_3": "80",
+                    "paslon_4": "133"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "10",
+                    "paslon_2": "194",
+                    "paslon_3": "59",
+                    "paslon_4": "185"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "129",
+                    "paslon_3": "30",
+                    "paslon_4": "147"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "5",
+                    "paslon_2": "104",
+                    "paslon_3": "68",
+                    "paslon_4": "129"
+                },
+                {
+                    "tps": "006",
+                    "paslon_1": "4",
+                    "paslon_2": "104",
+                    "paslon_3": "46",
+                    "paslon_4": "79"
+                },
+                {
+                    "tps": "007",
+                    "paslon_1": "13",
+                    "paslon_2": "190",
+                    "paslon_3": "73",
+                    "paslon_4": "123"
+                }
+            ],
+            "SANTIONG": [
+                {
+                    "tps": "001",
+                    "paslon_1": "8",
+                    "paslon_2": "191",
+                    "paslon_3": "25",
+                    "paslon_4": "150"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "13",
+                    "paslon_2": "149",
+                    "paslon_3": "17",
+                    "paslon_4": "185"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "14",
+                    "paslon_2": "122",
+                    "paslon_3": "28",
+                    "paslon_4": "157"
+                },
+                {
+                    "tps": "004",
+                    "paslon_1": "5",
+                    "paslon_2": "225",
+                    "paslon_3": "21",
+                    "paslon_4": "134"
+                },
+                {
+                    "tps": "005",
+                    "paslon_1": "11",
+                    "paslon_2": "218",
+                    "paslon_3": "12",
+                    "paslon_4": "120"
+                }
+            ],
+            "STADION": [
+                {
+                    "tps": "001",
+                    "paslon_1": "3",
+                    "paslon_2": "177",
+                    "paslon_3": "69",
+                    "paslon_4": "84"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "11",
+                    "paslon_2": "88",
+                    "paslon_3": "82",
+                    "paslon_4": "105"
+                }
+            ],
+            "TAKOMA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "152",
+                    "paslon_3": "34",
+                    "paslon_4": "116"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "19",
+                    "paslon_2": "103",
+                    "paslon_3": "41",
+                    "paslon_4": "83"
+                },
+                {
+                    "tps": "003",
+                    "paslon_1": "8",
+                    "paslon_2": "104",
+                    "paslon_3": "10",
+                    "paslon_4": "104"
+                }
+            ],
+            "TANAH RAJA": [
+                {
+                    "tps": "001",
+                    "paslon_1": "1",
+                    "paslon_2": "156",
+                    "paslon_3": "8",
+                    "paslon_4": "112"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "4",
+                    "paslon_2": "101",
+                    "paslon_3": "3",
+                    "paslon_4": "145"
+                }
+            ],
+            "TONGOLE": [
+                {
+                    "tps": "001",
+                    "paslon_1": "7",
+                    "paslon_2": "155",
+                    "paslon_3": "36",
+                    "paslon_4": "115"
+                },
+                {
+                    "tps": "002",
+                    "paslon_1": "8",
+                    "paslon_2": "227",
+                    "paslon_3": "45",
+                    "paslon_4": "122"
+                }
+            ]
+        }
+    }
+]
