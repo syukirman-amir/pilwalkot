@@ -19,27 +19,31 @@ selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", [""] + kecamatan_li
 
 # Tempat untuk menampilkan grafik total suara seluruh kecamatan
 if selected_kecamatan == "":
-    # Mengumpulkan total suara per kandidat di seluruh kecamatan
-    total_candidate_1 = sum([item["totals"]["candidate_1"] for item in data])
-    total_candidate_2 = sum([item["totals"]["candidate_2"] for item in data])
-    total_candidate_3 = sum([item["totals"]["candidate_3"] for item in data])
-    total_candidate_4 = sum([item["totals"]["candidate_4"] for item in data])
-
-    # Membuat DataFrame untuk total suara per kandidat
+    # Membuat DataFrame untuk total suara per kandidat dari semua kecamatan
+    kandidat_1 = [item["totals"]["candidate_1"] for item in data]
+    kandidat_2 = [item["totals"]["candidate_2"] for item in data]
+    kandidat_3 = [item["totals"]["candidate_3"] for item in data]
+    kandidat_4 = [item["totals"]["candidate_4"] for item in data]
+    
+    kecamatan_names = [item["kecamatan"] for item in data]
+    
+    # Membuat DataFrame yang memuat total suara per kandidat untuk setiap kecamatan
     totals = pd.DataFrame({
-        "Kandidat": ["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-        "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
+        "Kecamatan": kecamatan_names,
+        "Kandidat 1": kandidat_1,
+        "Kandidat 2": kandidat_2,
+        "Kandidat 3": kandidat_3,
+        "Kandidat 4": kandidat_4
     })
 
     # Visualisasi total suara seluruh kecamatan menggunakan Line Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-    fig = px.line(totals, x="Kandidat", y="Jumlah Suara", markers=True, title="Total Suara per Kandidat")
+    fig = px.line(totals, x="Kecamatan", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"], 
+                  markers=True, title="Total Suara per Kandidat di Seluruh Kecamatan")
     st.plotly_chart(fig)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
-
-    # Filter data berdasarkan kecamatan yang dipilih
     kecamatan_data = next(item for item in data if item["kecamatan"] == selected_kecamatan)
 
     # Tampilkan total suara per kandidat untuk kecamatan yang dipilih
