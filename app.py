@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-import plotly.graph_objects as go
+import plotly.express as px
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
@@ -17,7 +17,7 @@ kecamatan_list = [item["kecamatan"] for item in data]
 # Inisialisasi untuk tidak ada kecamatan dan kelurahan yang dipilih pada awalnya
 selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", [""] + kecamatan_list)
 
-# Grafik total suara per kandidat di seluruh kecamatan
+# Tempat untuk menampilkan grafik total suara seluruh kecamatan
 if selected_kecamatan == "":
     # Mengumpulkan total suara per kandidat di seluruh kecamatan
     total_candidate_1 = sum([item["totals"]["candidate_1"] for item in data])
@@ -31,57 +31,9 @@ if selected_kecamatan == "":
         "Jumlah Suara": [total_candidate_1, total_candidate_2, total_candidate_3, total_candidate_4]
     })
 
-    # Visualisasi total suara seluruh kecamatan dengan Line Chart menggunakan Plotly
+    # Visualisasi total suara seluruh kecamatan menggunakan bar chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-    
-    # Membuat line chart untuk total suara per kandidat
-    fig = go.Figure()
-
-    # Menambahkan line chart untuk setiap kandidat dengan warna yang berbeda
-    fig.add_trace(go.Scatter(
-        x=totals["Kandidat"], 
-        y=totals["Jumlah Suara"],
-        mode='lines+markers',  # garis dan titik
-        name="Kandidat 1",
-        line=dict(color='blue', width=3),  # Warna biru untuk Kandidat 1
-        marker=dict(size=10)
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=totals["Kandidat"], 
-        y=totals["Jumlah Suara"], 
-        mode='lines+markers',
-        name="Kandidat 2",
-        line=dict(color='red', width=3),  # Warna merah untuk Kandidat 2
-        marker=dict(size=10)
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=totals["Kandidat"], 
-        y=totals["Jumlah Suara"], 
-        mode='lines+markers',
-        name="Kandidat 3",
-        line=dict(color='green', width=3),  # Warna hijau untuk Kandidat 3
-        marker=dict(size=10)
-    ))
-
-    fig.add_trace(go.Scatter(
-        x=totals["Kandidat"], 
-        y=totals["Jumlah Suara"], 
-        mode='lines+markers',
-        name="Kandidat 4",
-        line=dict(color='orange', width=3),  # Warna oranye untuk Kandidat 4
-        marker=dict(size=10)
-    ))
-
-    fig.update_layout(
-        title="Total Suara per Kandidat di Seluruh Kecamatan",
-        xaxis_title="Kandidat",
-        yaxis_title="Jumlah Suara",
-        template="plotly_dark",  # Tema modern dan gelap
-        margin=dict(l=100, r=100, t=50, b=50)
-    )
-    
+    fig = px.bar(totals, x="Kandidat", y="Jumlah Suara", color="Kandidat", title="Total Suara per Kandidat")
     st.plotly_chart(fig)
 
 else:
@@ -97,28 +49,7 @@ else:
     )
 
     st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
-    
-    # Grafik kecamatan dengan Plotly (Bar Chart)
-    fig_kecamatan = go.Figure(data=[
-        go.Bar(
-            y=totals_kecamatan["Kandidat"], 
-            x=totals_kecamatan["Jumlah Suara"],
-            orientation="h",
-            marker=dict(color=["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"]),
-            text=totals_kecamatan["Jumlah Suara"],
-            textposition="inside",
-            hovertemplate="Kandidat: %{y}<br>Jumlah Suara: %{x}<extra></extra>"
-        )
-    ])
-    
-    fig_kecamatan.update_layout(
-        title=f"Total Suara - {selected_kecamatan}",
-        xaxis_title="Jumlah Suara",
-        yaxis_title="Kandidat",
-        template="plotly_dark",
-        margin=dict(l=100, r=100, t=50, b=50)
-    )
-
+    fig_kecamatan = px.bar(totals_kecamatan, x="Kandidat", y="Jumlah Suara", color="Kandidat", title=f"Total Suara - {selected_kecamatan}")
     st.plotly_chart(fig_kecamatan)
 
     # Dropdown untuk memilih kelurahan
@@ -154,14 +85,6 @@ else:
         st.dataframe(kelurahan_df)
 
         # Plot suara per TPS untuk kelurahan yang dipilih
-        fig, ax = plt.subplots()
-        kelurahan_df.plot(
-            x="TPS",
-            y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-            kind="bar",
-            ax=ax
-        )
-        ax.set_title(f"Suara per TPS di Kelurahan {selected_kelurahan}")
-        ax.set_xlabel("TPS")
-        ax.set_ylabel("Jumlah Suara")
-        st.pyplot(fig)
+        fig = px.line(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+                      title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
+        st.plotly_chart(fig)
