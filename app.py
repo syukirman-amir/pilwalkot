@@ -40,11 +40,21 @@ if selected_kecamatan == "":
         title="Total Suara per Kandidat di Seluruh Kecamatan"
     )
     
-    # Pastikan ada 4 garis terpisah untuk 4 kandidat
+    # Menambahkan 4 garis terpisah untuk setiap kandidat
     fig.update_traces(mode='lines+markers')
 
-    # Menampilkan grafik line di halaman depan
+    # Menampilkan grafik line dengan 4 garis
     st.plotly_chart(fig)
+
+    # Menampilkan grafik batang dengan 4 batang
+    fig_bar = px.bar(
+        totals, 
+        x="Kandidat", 
+        y="Jumlah Suara", 
+        color="Kandidat", 
+        title="Total Suara per Kandidat (Grafik Batang)"
+    )
+    st.plotly_chart(fig_bar)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
