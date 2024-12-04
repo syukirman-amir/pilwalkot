@@ -100,4 +100,12 @@ else:
         # Plot suara per TPS untuk kelurahan yang dipilih
         fig = px.bar(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
                      title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
+
+        # Menyesuaikan label untuk TPS, rotasi agar lebih jelas
+        fig.update_layout(
+            xaxis_title="TPS",
+            yaxis_title="Jumlah Suara",
+            xaxis=dict(tickangle=45)  # Mengubah sudut label agar tidak tumpang tindih
+        )
+
         st.plotly_chart(fig)
