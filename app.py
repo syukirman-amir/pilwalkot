@@ -34,7 +34,7 @@ if selected_kecamatan == "":
     # Visualisasi total suara seluruh kecamatan menggunakan Bar Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
     fig = px.line(totals, x="Kandidat", y="Jumlah Suara", color="Kandidat", title="Total Suara per Kandidat")
-    st.line_chart(fig)
+    st.plotly_chart(fig)
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
