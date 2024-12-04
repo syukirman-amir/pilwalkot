@@ -42,8 +42,8 @@ for kelurahan, tps_data in kecamatan_data["kelurahan"].items():
     # Plot suara per TPS
     fig, ax = plt.subplots()
     kelurahan_df.plot(
-        x="tps",
-        y=["paslon_1", "paslon_2", "paslon_3", "paslone_4"],
+        x="tps_number",
+        y=["candidate_1", "candidate_2", "candidate_3", "candidate_4"],
         kind="bar",
         ax=ax
     )
