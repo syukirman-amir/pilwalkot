@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-import plotly.express as px
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
@@ -27,24 +26,15 @@ if selected_kecamatan == "":
 
     # Membuat DataFrame untuk total suara per kandidat
     totals = pd.DataFrame({
-        "Kandidat": ["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-        "Jumlah Suara": [kandidat_1, kandidat_2, kandidat_3, kandidat_4]
+        "Kandidat 1": [kandidat_1],
+        "Kandidat 2": [kandidat_2],
+        "Kandidat 3": [kandidat_3],
+        "Kandidat 4": [kandidat_4]
     })
 
-    # Membuat grafik line dengan 4 garis terpisah, satu untuk tiap kandidat
-    fig = px.line(
-        totals, 
-        x="Kandidat", 
-        y="Jumlah Suara", 
-        markers=True, 
-        title="Total Suara per Kandidat di Seluruh Kecamatan"
-    )
-
-    # Menambahkan 4 garis terpisah untuk setiap kandidat
-    fig.update_traces(mode='lines+markers')
-
-    # Menampilkan grafik line dengan 4 garis
-    st.plotly_chart(fig)
+    # Menampilkan grafik line chart dengan 4 garis untuk setiap kandidat
+    st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
+    st.line_chart(totals.T)  # .T untuk transpose agar setiap kandidat menjadi satu garis
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
@@ -57,8 +47,7 @@ else:
     )
 
     st.subheader(f"Total Suara - Kecamatan {selected_kecamatan}")
-    fig_kecamatan = px.bar(totals_kecamatan, x="Kandidat", y="Jumlah Suara", color="Kandidat", title=f"Total Suara - {selected_kecamatan}")
-    st.plotly_chart(fig_kecamatan)
+    st.line_chart(totals_kecamatan.set_index("Kandidat").T)  # .T untuk transpose agar setiap kandidat menjadi satu garis
 
     # Dropdown untuk memilih kelurahan
     kelurahan_list = list(kecamatan_data["kelurahan"].keys())
@@ -93,6 +82,4 @@ else:
         st.dataframe(kelurahan_df)
 
         # Plot suara per TPS untuk kelurahan yang dipilih
-        fig = px.bar(kelurahan_df, x="TPS", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
-                     title=f"Suara per TPS di Kelurahan {selected_kelurahan}")
-        st.plotly_chart(fig)
+        st.line_chart(kelurahan_df.set_index("TPS")[["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"]])
