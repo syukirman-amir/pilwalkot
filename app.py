@@ -19,37 +19,30 @@ selected_kecamatan = st.sidebar.selectbox("Pilih Kecamatan", [""] + kecamatan_li
 
 # Tempat untuk menampilkan grafik total suara seluruh kecamatan
 if selected_kecamatan == "":
-    # Menyusun data berdasarkan kandidat
+    # Menghitung total suara untuk setiap kandidat di seluruh kecamatan
     kandidat_1 = [item["totals"]["candidate_1"] for item in data]
     kandidat_2 = [item["totals"]["candidate_2"] for item in data]
     kandidat_3 = [item["totals"]["candidate_3"] for item in data]
     kandidat_4 = [item["totals"]["candidate_4"] for item in data]
 
-    # Total suara seluruh kecamatan
+    # Total suara untuk seluruh kecamatan
     total_candidate_1 = sum(kandidat_1)
     total_candidate_2 = sum(kandidat_2)
     total_candidate_3 = sum(kandidat_3)
     total_candidate_4 = sum(kandidat_4)
 
-    # Membuat DataFrame dengan total suara untuk setiap kandidat
+    # Membuat DataFrame untuk total suara setiap kandidat
     totals = pd.DataFrame({
-        "Kandidat 1": [total_candidate_1],
-        "Kandidat 2": [total_candidate_2],
-        "Kandidat 3": [total_candidate_3],
-        "Kandidat 4": [total_candidate_4]
+        "Kecamatan": [kecamatan["kecamatan"] for kecamatan in data],
+        "Kandidat 1": kandidat_1,
+        "Kandidat 2": kandidat_2,
+        "Kandidat 3": kandidat_3,
+        "Kandidat 4": kandidat_4
     })
 
-    # Visualisasi suara seluruh kecamatan menggunakan Line Chart untuk setiap kandidat
-    st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
-
-    # Menyusun data agar sesuai untuk line chart
-    totals_transposed = totals.T
-    totals_transposed.reset_index(inplace=True)
-    totals_transposed.columns = ["Kandidat", "Jumlah Suara"]
-
-    # Membuat line chart dengan 4 garis untuk masing-masing kandidat
-    fig = px.line(totals_transposed, x="Kandidat", y="Jumlah Suara", markers=True, 
-                  title="Total Suara per Kandidat di Seluruh Kecamatan")
+    # Membuat line chart dengan 4 garis, satu untuk tiap kandidat
+    fig = px.line(totals, x="Kecamatan", y=["Kandidat 1", "Kandidat 2", "Kandidat 3", "Kandidat 4"],
+                  markers=True, title="Total Suara per Kandidat di Seluruh Kecamatan")
     st.plotly_chart(fig)
 
 else:
