@@ -46,16 +46,6 @@ if selected_kecamatan == "":
     # Menampilkan grafik line dengan 4 garis
     st.plotly_chart(fig)
 
-    # Menampilkan grafik batang dengan 4 batang
-    fig_bar = px.bar(
-        totals, 
-        x="Kandidat", 
-        y="Jumlah Suara", 
-        color="Kandidat", 
-        title="Total Suara per Kandidat (Grafik Batang)"
-    )
-    st.plotly_chart(fig_bar)
-
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
     kecamatan_data = next(item for item in data if item["kecamatan"] == selected_kecamatan)
