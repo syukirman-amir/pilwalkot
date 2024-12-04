@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
-import plotly.express as px
+import numpy as np
 
 # Load JSON data
 with open('rekapitulasi.json', 'r') as file:
@@ -27,17 +27,17 @@ if selected_kecamatan == "":
 
     # Membuat DataFrame untuk total suara per kandidat
     totals = pd.DataFrame({
-        "Kandidat 1": [total_candidate_1],
-        "Kandidat 2": [total_candidate_2],
-        "Kandidat 3": [total_candidate_3],
-        "Kandidat 4": [total_candidate_4]
+        "kandidat_1": [total_candidate_1],
+        "kandidat_2": [total_candidate_2],
+        "kandidat_3": [total_candidate_3],
+        "kandidat_4": [total_candidate_4]
     })
 
     # Visualisasi total suara seluruh kecamatan menggunakan Line Chart
     st.subheader("Total Suara per Kandidat di Seluruh Kecamatan")
 
-    # Agar grafik menampilkan 4 garis per kandidat
-    st.line_chart(totals.T)  # .T untuk transpose agar setiap kandidat menjadi satu garis
+    # Visualisasi dengan st.line_chart untuk menampilkan 4 garis
+    st.line_chart(totals)  # Menampilkan total suara untuk 4 kandidat
 
 else:
     # Setelah memilih kecamatan, tampilkan grafik berdasarkan kecamatan yang dipilih
